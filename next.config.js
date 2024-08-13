@@ -4,14 +4,15 @@
 const { patchWebpackConfig } = require("next-global-css");
 const webpackNodeExternals = require("webpack-node-externals");
 
-const withTM = require('next-transpile-modules')(["react-leaflet-cluster", "react-leaflet"]);
+const withTM = require('next-transpile-modules')(["react-leaflet-cluster", "leaflet", "react-leaflet"]);
 
 const nextConfig = withTM({
   // output: 'standalone',
   // distDir: 'build',
   reactStrictMode: false,
-  // images: {
-  // },
+  images: {
+    domains: ["img.icons8.com"],
+  },
   // transpilePackages: ["react-leaflet-cluster", "react-leaflet"],
   // compiler: {
   //   removeConsole: process.env.NODE_ENV === "production"
