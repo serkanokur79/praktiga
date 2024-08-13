@@ -1,12 +1,12 @@
 
 import React from 'react';
+import 'leaflet/dist/leaflet.css'
 import { Marker, Popup } from 'react-leaflet';
 import { MapContainer } from 'react-leaflet/MapContainer'
 import { TileLayer } from 'react-leaflet/TileLayer'
-import { useMap } from 'react-leaflet/hooks'
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import { Icon } from 'leaflet'
-import 'leaflet/dist/leaflet.css'
+
 
 
 const Map = ({ lat, lng }: { lat: string, lng: string }) => {
@@ -25,6 +25,8 @@ const Map = ({ lat, lng }: { lat: string, lng: string }) => {
         minZoom: 12,
     };
 
+
+
     return (
 
         <MapContainer {...mapOptions} style={{ height: '400px', width: '100%' }} >
@@ -32,9 +34,8 @@ const Map = ({ lat, lng }: { lat: string, lng: string }) => {
                 // attribution='<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <MarkerClusterGroup chunkedLoading>
-                <Marker position={position}
-                // icon={housingIcon}
+            <MarkerClusterGroup >
+                <Marker position={position} icon={housingIcon}
                 >
                     <Popup>
                         Praktiga <br /> Identity & Access Management Consulting
