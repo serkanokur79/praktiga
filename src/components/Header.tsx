@@ -84,16 +84,17 @@ export default function Header() {
                     <SheetContent side="right">
                         <div className="flex flex-col items-end">
                             {headerItems.map((item, index) => (
-                                <Button
-                                    key={index}
-                                    variant="link"
-                                    onClick={() => {
-                                        setOpen(false);
-                                    }}
+                                <Link key={index} href={item.link}>
+                                    <Button
+                                        key={index}
+                                        variant="link"
+                                        onClick={() => {
+                                            setOpen(false);
+                                        }}
 
-                                >
-                                    {item.name}
-                                </Button>
+                                    >
+                                        {item.name}
+                                    </Button></Link>
                             ))}
                             <select
                                 onChange={(e) => handleLanguageChange(e.target.value)}
