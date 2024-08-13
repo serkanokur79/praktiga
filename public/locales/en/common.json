@@ -33,6 +33,11 @@
         "description6": "Empower your team with our support services, or let us handle your IAM operations entirely, ensuring continuous protection and efficiency."
     },
     "career": {
+        "hero": {
+            "title": "Be praktigal!",
+            "description": " Join us and shape the future of IAM with a collaborative dynamic team of experts!",
+            "button_text": "Job openings"
+        },
         "topTeam": {
             "title": "Top Team, Smart Solutions",
             "description": "Our team, composed of the industry's top IAM professionals, specializes in delivering innovative solutions across sectors such as finance, automotive, healthcare, and public sector."

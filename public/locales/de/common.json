@@ -33,6 +33,11 @@
         "description6": "Stärken Sie Ihr Team mit unseren Support-Services oder überlassen Sie uns ganz Ihren IAM-Betrieb, um einen kontinuierlichen Schutz und Effizienz zu gewährleisten."
     },
     "career": {
+        "hero": {
+            "title": "Sei praktigal!",
+            "description": "Schließe dich uns an und gestalte die Zukunft des IAM mit einem kollaborativen, dynamischen Expertenteam!",
+            "button_text": "Stellenangebote"
+        },
         "topTeam": {
             "title": "Top-Team, Smarte Lösungen",
             "description": "Unser Team, bestehend aus den besten IAM-Profis der Branche, spezialisiert sich auf die Bereitstellung innovativer Lösungen in Sektoren wie Finanzen, Automobil, Gesundheitswesen und öffentlichem Sektor."

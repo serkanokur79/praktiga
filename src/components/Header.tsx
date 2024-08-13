@@ -72,7 +72,7 @@ export default function Header() {
                     <select
                         onChange={(e) => handleLanguageChange(e.target.value)}
                         value={language}
-                        className="p-2 rounded"
+                        className="p-2 rounded bg-transparent"
                     >
                         <option value="en">English</option>
                         <option value="de">Deutsch</option>
@@ -119,7 +119,7 @@ export default function Header() {
                             <select
                                 onChange={(e) => handleLanguageChange(e.target.value)}
                                 value={language}
-                                className="p-2 rounded"
+                                className="p-2 rounded bg-transparent"
                             >
                                 <option value="en">English</option>
                                 <option value="de">Deutsch</option>

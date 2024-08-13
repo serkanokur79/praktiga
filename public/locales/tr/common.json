@@ -33,6 +33,11 @@
         "description6": "Ihtiyacınız olan özelliğe sahip operasyon ve destek hizmetlerimizi özel olarak bize gönderin."
     },
     "career": {
+        "hero": {
+            "title": "Pratigalı ol!",
+            "description": "Bize katıl ve işbirlikçi, dinamik bir uzman ekibiyle IAM'in geleceğini şekillendir!",
+            "button_text": "İş ilanları"
+        },
         "topTeam": {
             "title": "Üst Düzey Ekip, Akıllı Çözümler",
             "description": "Ekibimiz, sektörün en iyi IAM profesyonellerinden oluşmakta olup, finans, otomotiv, sağlık ve kamu sektörü gibi alanlarda yenilikçi çözümler sunma konusunda uzmanlaşmıştır."
