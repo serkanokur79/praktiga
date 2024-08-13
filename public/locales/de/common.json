@@ -58,6 +58,10 @@
             "description": "Von der Strategie bis zur Implementierung bieten wir fortlaufende Unterstützung, um Ihren Erfolg sicherzustellen."
         }
     },
+    "contact": {
+        "contact_us": "Kontaktieren Sie uns!",
+        "contact_us_description": "Unsere Experten sind bereit zu helfen! Kontaktieren Sie uns über einen der folgenden Kanäle:"
+    },
     "germanyHQ": {
         "title": "DEUTSCHLAND (HAUPTSITZ)",
         "company": "Praktiga Consulting GmbH",

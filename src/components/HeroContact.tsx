@@ -23,9 +23,9 @@ const HeroContactSection = () => {
 
 
             <div className="relative z-20 flex flex-col  h-1/2 px-4 text-center text-white dark:text-gray-400 mt-[calc(18rem)] xl:mt-[calc(20rem)]">
-                <h1 className="text-4xl font-bold mx-auto my-2 xl:mb-4">Contact us!</h1>
+                <h1 className="text-4xl font-bold mx-auto my-2 xl:mb-4"> {t('contact.contact_us')}</h1>
                 <p className="text-lg mb-4 mr-8">
-                    Our experts are ready to help! Contact us via any of the following channels:
+                    {t('contact.description')}
                 </p>
 
                 <div className="flex justify-center space-x-4 mt-2">

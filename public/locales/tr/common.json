@@ -58,6 +58,10 @@
             "description": "Stratejiden uygulamaya kadar, başarınızı sağlamak için sürekli destek sunuyoruz."
         }
     },
+    "contact": {
+        "contact_us": "Bize ulaşın!",
+        "contact_us_description": "Uzmanlarımız size yardımcı olmaya hazır! Aşağıdaki kanallardan herhangi biri aracılığıyla bize ulaşın:"
+    },
     "germanyHQ": {
         "title": "ALMANYA (MERKEZ)",
         "company": "Praktiga Consulting GmbH",

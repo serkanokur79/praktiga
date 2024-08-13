@@ -39,6 +39,10 @@
             "description": "We foster teamwork, innovation, diversity, and inclusivity, creating an environment where everyone can contribute and succeed."
         }
     },
+    "contact": {
+        "contact_us": "Contact us!",
+        "contact_us_description": "Our experts are ready to help! Contact us via any of the following channels:"
+    },
     "whyChoose": {
         "header": "Why Choose Praktiga?",
         "expertConsultants": {
