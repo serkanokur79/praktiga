@@ -6,6 +6,11 @@
     "page3": "Page 3",
     "toggle_dark_mode": "Toggle Dark Mode",
     "welcome": "Welcome to Praktiga",
+    "hero": {
+        "title": "Identity & Access Management Consulting",
+        "description": "Expertise. Efficiency. Excellence.",
+        "button_text": "Contact Us"
+    },
     "services": {
         "title": "Our Services",
         "service1": "Advisory",
@@ -41,7 +46,7 @@
     },
     "contact": {
         "contact_us": "Contact us!",
-        "contact_us_description": "Our experts are ready to help! Contact us via any of the following channels:"
+        "description": "Our experts are ready to help! Contact us via any of the following channels:"
     },
     "whyChoose": {
         "header": "Why Choose Praktiga?",

@@ -22,11 +22,11 @@ const HeroSection = () => {
 
             <div className="relative z-20 flex flex-col items-center justify-center h-full px-4 text-center text-white dark:text-gray-400 ">
                 <h1 className="text-4xl font-bold mb-4 md:text-6xl dark:shadow-black box-shadow-red-400"> {t('welcome')}</h1>
-                <p className="text-lg mb-8 md:text-xl">Identity & Access Management Consulting</p>
-                <p className="text-lg mb-8 md:text-xl">Expertise. Efficiency. Excellence.</p>
+                <p className="text-lg mb-8 md:text-xl">{t('hero.title')}</p>
+                <p className="text-lg mb-8 md:text-xl">{t('hero.description')}</p>
                 <Link href="/contact">
                     <Button variant='default' >
-                        Contact Us
+                        {t('hero.button_text')}
                     </Button>
                 </Link>
             </div>

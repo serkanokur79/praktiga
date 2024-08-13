@@ -6,6 +6,11 @@
     "page3": "Seite 3",
     "toggle_dark_mode": "Dunkler Modus umschalten",
     "welcome": "Willkommen in Praktiga",
+    "hero": {
+        "title": "Identitäts- und Zugriffsmanagement-Beratung",
+        "description": "Expertise. Effizienz. Exzellenz.",
+        "button_text": "Kontaktiere uns!"
+    },
     "services": {
         "title": "Unsere Dienstleistungen",
         "service1": "Beratung",
@@ -60,7 +65,7 @@
     },
     "contact": {
         "contact_us": "Kontaktieren Sie uns!",
-        "contact_us_description": "Unsere Experten sind bereit zu helfen! Kontaktieren Sie uns über einen der folgenden Kanäle:"
+        "description": "Unsere Experten sind bereit zu helfen! Kontaktieren Sie uns über einen der folgenden Kanäle:"
     },
     "germanyHQ": {
         "title": "DEUTSCHLAND (HAUPTSITZ)",
