@@ -5,11 +5,17 @@
     "page2": "Sayfa 2",
     "page3": "Sayfa 3",
     "toggle_dark_mode": "Geçerli modu değiştir",
+    "headers": {
+        "home": "Ana Sayfa",
+        "services": "Hizmetlerimiz",
+        "careers": "Kariyer",
+        "contact": "İletişim"
+    },
     "welcome": "Praktiga'ya Hoşgeldiniz",
     "hero": {
         "title": "Kimlik ve Erişim Yönetimi Danışmanlığı",
         "description": "Uzmanlık. Verimlilik. Mükemmeliyet.",
-        "button": "Bize ulaşın"
+        "button_text": "Bize ulaşın"
     },
     "services": {
         "title": "Hizmetlerimiz",

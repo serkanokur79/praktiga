@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import '../../i18n';
@@ -9,7 +9,11 @@ import { Button } from './ui/button';
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 import { MenuIcon } from 'lucide-react';
 
-export const headerItems = [{ name: 'Home', link: '/' }, { name: 'Our Services', link: '/services' }, { name: 'Contact', link: '/contact' }, { name: 'Careers', link: '/careers' }]
+// export const headerItems = [
+//     { name: 'Home', link: '/' },
+//     { name: 'Our Services', link: '/services' },
+//     { name: 'Contact', link: '/contact' },
+//     { name: 'Careers', link: '/careers' }]
 
 export default function Header() {
     const { i18n } = useTranslation();
@@ -18,6 +22,13 @@ export default function Header() {
     const [darkMode, setDarkMode] = useState(false);
     const [language, setLanguage] = useState('en');
     const [open, setOpen] = useState(false);
+
+    const headerItems = useMemo(() => [
+        { name: `${t('headers.home')}`, link: '/' },
+        { name: `${t('headers.services')}`, link: '/services' },
+        { name: `${t('headers.contact')}`, link: '/contact' },
+        { name: `${t('headers.careers')}`, link: '/careers' }], [t]);
+
 
     useEffect(() => {
         setLanguage(router.locale ?? 'en');

@@ -6,6 +6,12 @@
     "page3": "Page 3",
     "toggle_dark_mode": "Toggle Dark Mode",
     "welcome": "Welcome to Praktiga",
+    "headers": {
+        "home": "Home",
+        "services": "Services",
+        "careers": "Careers",
+        "contact": "Contact"
+    },
     "hero": {
         "title": "Identity & Access Management Consulting",
         "description": "Expertise. Efficiency. Excellence.",

@@ -1,14 +1,20 @@
-// components/Footer.tsx
-import { FC } from 'react';
+
+import { FC, useMemo } from 'react';
 import { useTranslation } from 'next-i18next';
 import { FaFacebook, FaTwitter, FaLinkedin, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import Link from 'next/link';
-import { headerItems } from './Header';
+// import { headerItems } from './Header';
 import { Button } from './ui/button';
 import Image from 'next/image';
 
 const Footer: FC = () => {
     const { t } = useTranslation('common');
+    const headerItems = useMemo(() => [
+        { name: `${t('headers.home')}`, link: '/' },
+        { name: `${t('headers.services')}`, link: '/services' },
+        { name: `${t('headers.contact')}`, link: '/contact' },
+        { name: `${t('headers.careers')}`, link: '/careers' }]
+        , [t]);
 
     return (
         <footer className="bg-gray-800 text-white py-8">

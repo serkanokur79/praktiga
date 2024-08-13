@@ -5,6 +5,12 @@
     "page2": "Seite 2",
     "page3": "Seite 3",
     "toggle_dark_mode": "Dunkler Modus umschalten",
+    "headers": {
+        "home": "Startseite",
+        "services": "Dienste",
+        "careers": "Karrieremöglichkeiten",
+        "contact": "Kontakt"
+    },
     "welcome": "Willkommen in Praktiga",
     "hero": {
         "title": "Identitäts- und Zugriffsmanagement-Beratung",
