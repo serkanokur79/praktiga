@@ -24,6 +24,11 @@ const Map = ({ lat, lng }: { lat: string, lng: string }) => {
         maxZoom: 16,
         minZoom: 12,
     };
+    const markerOptions = {
+        position: [Number(lat), Number(lng)],
+        icon: housingIcon,
+        popup: 'Praktiga <br /> Identity & Access Management Consulting'
+    }
 
 
 
@@ -35,10 +40,7 @@ const Map = ({ lat, lng }: { lat: string, lng: string }) => {
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             <MarkerClusterGroup >
-                <Marker position={position}
-
-                    icon={housingIcon}
-                >
+                <Marker {...markerOptions}>
                     <Popup>
                         Praktiga <br /> Identity & Access Management Consulting
                     </Popup>
