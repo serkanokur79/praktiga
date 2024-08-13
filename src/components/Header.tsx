@@ -8,6 +8,7 @@ import { DarkModeSelector } from './DarkModeSelector';
 import { Button } from './ui/button';
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 import { MenuIcon } from 'lucide-react';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
 
 // export const headerItems = [
 //     { name: 'Home', link: '/' },
@@ -69,28 +70,49 @@ export default function Header() {
             </button> */}
 
                 <div className='flex flex-row gap-2 px-2'>
-                    <select
+                    {/* <select
                         onChange={(e) => handleLanguageChange(e.target.value)}
                         value={language}
                         className="p-2 rounded bg-transparent"
                     >
-                        <option value="en">English</option>
-                        <option value="de">Deutsch</option>
-                        <option value="tr">Türkçe</option>
-                    </select>
+                        <option value="en" className='bg-gray-200 dark:gray-900 dark:text-gray-200'>English</option>
+                        <option value="de" className='bg-gray-200 dark:gray-900 dark:text-gray-200' >Deutsch</option>
+                        <option value="tr" className='bg-gray-200 dark:gray-900 dark:text-gray-200'>Türkçe</option>
+                    </select> */}
+                    <Select onValueChange={handleLanguageChange} value={language} >
+                        <SelectTrigger className='justify-end text-center  w-[6rem] border-none bg-transparent'>
+                            {language === 'en' ? 'English  ' : language === 'de' ? 'Deutsch  ' : 'Türkçe  '}
+                        </SelectTrigger>
+                        <SelectContent>
+                            <SelectItem value="en">English</SelectItem>
+                            <SelectItem value="de">Deutsch</SelectItem>
+                            <SelectItem value="tr">Türkçe</SelectItem>
+                        </SelectContent>
+                    </Select>
                     <DarkModeSelector />
                 </div>
             </div>
             <div className='md:hidden flex flex-row gap-1'>
-                <select
+                {/* <select
                     onChange={(e) => handleLanguageChange(e.target.value)}
                     value={language}
                     className="p-2 rounded bg-transparent"
                 >
-                    <option value="en">English</option>
-                    <option value="de">Deutsch</option>
-                    <option value="tr">Türkçe</option>
-                </select>
+                    <option value="en" className='bg-gray-200 dark:gray-900 dark:text-gray-200'>English</option>
+                    <option value="de" className='bg-gray-200 dark:gray-900 dark:text-gray-200' >Deutsch</option>
+                    <option value="tr" className='bg-gray-200 dark:gray-900 dark:text-gray-200'>Türkçe</option>
+                </select> */}
+
+                <Select onValueChange={handleLanguageChange} value={language}>
+                    <SelectTrigger className='justify-end text-center  w-[6rem] border-none bg-transparent'>
+                        {language === 'en' ? 'English  ' : language === 'de' ? 'Deutsch  ' : 'Türkçe  '}
+                    </SelectTrigger>
+                    <SelectContent>
+                        <SelectItem value="en">English</SelectItem>
+                        <SelectItem value="de">Deutsch</SelectItem>
+                        <SelectItem value="tr">Türkçe</SelectItem>
+                    </SelectContent>
+                </Select>
                 <DarkModeSelector />
                 <Sheet open={open} onOpenChange={setOpen}>
                     {/* This button will trigger open the mobile sheet menu */}
@@ -101,7 +123,7 @@ export default function Header() {
                     </SheetTrigger>
 
 
-                    <SheetContent side="right">
+                    <SheetContent side="right" className='w-1/3'>
                         <div className="flex flex-col items-end">
                             {headerItems.map((item, index) => (
                                 <Link key={index} href={item.link}>
@@ -116,15 +138,7 @@ export default function Header() {
                                         {item.name}
                                     </Button></Link>
                             ))}
-                            <select
-                                onChange={(e) => handleLanguageChange(e.target.value)}
-                                value={language}
-                                className="p-2 rounded bg-transparent"
-                            >
-                                <option value="en">English</option>
-                                <option value="de">Deutsch</option>
-                                <option value="tr">Türkçe</option>
-                            </select>
+
                             <DarkModeSelector />
                         </div>
 
