@@ -8,7 +8,7 @@ const HeroSection = () => {
     const { t } = useTranslation('common');
 
     return (
-        <div className="relative h-[100dvh-4rem] md:h-[20rem] overflow-hidden w-full">
+        <div className="relative h-[calc(18rem)] md:h-[calc(20rem)] overflow-hidden w-full">
             <video
                 autoPlay
                 loop
