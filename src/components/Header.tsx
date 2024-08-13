@@ -85,7 +85,7 @@ export default function Header() {
                 <select
                     onChange={(e) => handleLanguageChange(e.target.value)}
                     value={language}
-                    className="p-2 rounded"
+                    className="p-2 rounded bg-transparent"
                 >
                     <option value="en">English</option>
                     <option value="de">Deutsch</option>
@@ -95,7 +95,7 @@ export default function Header() {
                 <Sheet open={open} onOpenChange={setOpen}>
                     {/* This button will trigger open the mobile sheet menu */}
                     <SheetTrigger asChild>
-                        <Button size='icon' variant="outline" className="md:hidden mx-2">
+                        <Button size='icon' variant="outline" className="md:hidden mx-2 bg-transparent">
                             <MenuIcon className='h-6 w-6' />
                         </Button>
                     </SheetTrigger>

@@ -11,7 +11,14 @@ const nextConfig = withTM({
   // distDir: 'build',
   reactStrictMode: false,
   images: {
-    domains: ["img.icons8.com"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'icons8.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
   },
   // transpilePackages: ["react-leaflet-cluster", "react-leaflet"],
   // compiler: {
