@@ -1,0 +1,87 @@
+{
+    "Home": "Home ENG",
+    "Page": "Page",
+    "page1": "Page 1",
+    "page2": "Page 2",
+    "page3": "Page 3",
+    "toggle_dark_mode": "Toggle Dark Mode",
+    "welcome": "Welcome to Praktiga",
+    "services": {
+        "title": "Our Services",
+        "service1": "Advisory",
+        "description1": "We guide you through your IAM journey, helping you develop a robust strategy and make informed decisions.",
+        "service2": "Consulting",
+        "description2": "Our consultancy translate your business needs into functional requirements and help you select the right IAM technology.",
+        "service3": "Implementation",
+        "description3": "Our certified professionals deliver seamless implementation of your chosen IAM solutions, ensuring minimal disruption to your operations.",
+        "service4": "Testing",
+        "description4": "We employ a structured approach to testing, ensuring the quality and reliability of your IAM systems before deployment.",
+        "service5": "Integration",
+        "description5": "We connect your IAM solution with various applications, enabling a coordinated and unified approach to identity management.",
+        "service6": "Operation & Support",
+        "description6": "Empower your team with our support services, or let us handle your IAM operations entirely, ensuring continuous protection and efficiency."
+    },
+    "career": {
+        "topTeam": {
+            "title": "Top Team, Smart Solutions",
+            "description": "Our team, composed of the industry's top IAM professionals, specializes in delivering innovative solutions across sectors such as finance, automotive, healthcare, and public sector."
+        },
+        "career": {
+            "title": "Career",
+            "description": "We're dedicated to nurturing your growth through diverse career paths, extensive training, and unlocking your potential. Join us to learn, grow, and excel!"
+        },
+        "wellBeing": {
+            "title": "Well-being",
+            "description": "We prioritize work-life balance with flexibility while fostering growth and support. It's not just a job; it's where you thrive personally and professionally."
+        },
+        "companyCulture": {
+            "title": "Company Culture",
+            "description": "We foster teamwork, innovation, diversity, and inclusivity, creating an environment where everyone can contribute and succeed."
+        }
+    },
+    "whyChoose": {
+        "header": "Why Choose Praktiga?",
+        "expertConsultants": {
+            "title": "Expert Consultants",
+            "description": "Our team comprises industry veterans with extensive experience in IAM."
+        },
+        "tailoredSolutions": {
+            "title": "Tailored Solutions",
+            "description": "We customize our services to meet your specific needs and challenges."
+        },
+        "provenTrackRecord": {
+            "title": "Proven Track Record",
+            "description": "Trusted by leading enterprises, we deliver measurable, secure, and compliant IAM solutions."
+        },
+        "comprehensiveSupport": {
+            "title": "Comprehensive Support",
+            "description": "From strategy to implementation, we provide ongoing support to ensure your success."
+        }
+    },
+    "germanyHQ": {
+        "title": "GERMANY (HQ)",
+        "company": "Praktiga Consulting GmbH",
+        "companyName": "Praktiga Consulting GmbH",
+        "address": "Address",
+        "addressLine1": "Südliche Münchner Str. 62",
+        "addressLine2": "82031 Grünwald"
+    },
+    "turkeyHQ": {
+        "title": "TÜRKİYE",
+        "company": "Praktiga Teknoloji A.Ş.",
+        "addressLine1": "İçerenköy Mah. Topçu İbrahim Sk. Quick Tower No: 8-10D",
+        "addressLine2": "Ataşehir / Istanbul"
+    },
+    "footer": {
+        "addressTitle": "Address",
+        "address": "Südliche Münchner Str. 62, 82031, Grünwald, Germany",
+        "contactTitle": "Contact",
+        "email": "Email",
+        "phone": "Phone",
+        "copyright": "All Rights Reserved",
+        "linksTitle": "Quick Links",
+        "about": "About Us",
+        "services": "Services",
+        "contactUs": "Contact Us"
+    }
+}

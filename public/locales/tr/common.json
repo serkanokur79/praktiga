@@ -1,0 +1,86 @@
+{
+    "Home": "Ana Sayfa",
+    "Page": "Sayfa",
+    "page1": "Sayfa 1",
+    "page2": "Sayfa 2",
+    "page3": "Sayfa 3",
+    "toggle_dark_mode": "Geçerli modu değiştir",
+    "welcome": "Praktiga'ya Hoşgeldiniz",
+    "services": {
+        "title": "Hizmetlerimiz",
+        "service1": "Tavsiye",
+        "description1": "IAM yolculuğunuzda size rehberlik eder, güçlü bir strateji geliştirmenize ve bilgilendirilmiş kararlar vermenize yardımcı oluruz. ",
+        "service2": "Danışmanlık",
+        "description2": "Danışmanlarımız, işletme ihtiyaçlarınızı işlevsel gereksinimlere dönüştürür ve göruğu IAM teknolojisini seçmenize yardımcı olur.",
+        "service3": "Uygulama",
+        "description3": "Sertifikalı işletmenizle, seçtiğiniz IAM çözümlerinin sorunsuz bir şekilde üretildiğini garanti eder.",
+        "service4": "Test",
+        "description4": "Ihtiyacınız olan özelliğe sahip testlerinizi uygulamak için gerekli bir stratejiden yararlanabilirsiniz.",
+        "service5": "Entegrasyon",
+        "description5": "Ihtiyacınız olan özelliğe sahip entegrasyonlarınızı kurmak için gerekli bir stratejiden yararlanabilirsiniz.",
+        "service6": "Operasyon ve Destek",
+        "description6": "Ihtiyacınız olan özelliğe sahip operasyon ve destek hizmetlerimizi özel olarak bize gönderin."
+    },
+    "career": {
+        "topTeam": {
+            "title": "Üst Düzey Ekip, Akıllı Çözümler",
+            "description": "Ekibimiz, sektörün en iyi IAM profesyonellerinden oluşmakta olup, finans, otomotiv, sağlık ve kamu sektörü gibi alanlarda yenilikçi çözümler sunma konusunda uzmanlaşmıştır."
+        },
+        "career": {
+            "title": "Kariyer",
+            "description": "Farklı kariyer yolları, kapsamlı eğitimler ve potansiyelinizi açığa çıkarmak için büyümenizi desteklemeye kendimizi adadık. Öğrenmek, büyümek ve mükemmel olmak için bize katılın!"
+        },
+        "wellBeing": {
+            "title": "İyi Olma",
+            "description": "Esneklik ile iş-yaşam dengesine öncelik veriyor ve büyümeyi ve desteği teşvik ediyoruz. Bu sadece bir iş değil; kişisel ve profesyonel olarak geliştiğiniz yerdir."
+        },
+        "companyCulture": {
+            "title": "Şirket Kültürü",
+            "description": "Takım çalışmasını, yeniliği, çeşitliliği ve kapsayıcılığı teşvik ediyoruz ve herkesin katkıda bulunabileceği ve başarılı olabileceği bir ortam yaratıyoruz."
+        }
+    },
+    "whyChoose": {
+        "header": "Neden Praktiga'yı Seçmelisiniz?",
+        "expertConsultants": {
+            "title": "Uzman Danışmanlar",
+            "description": "Ekibimiz, IAM konusunda geniş deneyime sahip sektör veteranlarından oluşmaktadır."
+        },
+        "tailoredSolutions": {
+            "title": "Özelleştirilmiş Çözümler",
+            "description": "Hizmetlerimizi belirli ihtiyaçlarınıza ve zorluklarınıza göre özelleştiriyoruz."
+        },
+        "provenTrackRecord": {
+            "title": "Kanıtlanmış Başarı",
+            "description": "Önde gelen işletmeler tarafından güvenilen, ölçülebilir, güvenli ve uyumlu IAM çözümleri sunuyoruz."
+        },
+        "comprehensiveSupport": {
+            "title": "Kapsamlı Destek",
+            "description": "Stratejiden uygulamaya kadar, başarınızı sağlamak için sürekli destek sunuyoruz."
+        }
+    },
+    "germanyHQ": {
+        "title": "ALMANYA (MERKEZ)",
+        "company": "Praktiga Consulting GmbH",
+        "companyName": "Praktiga Consulting GmbH",
+        "address": "Adres",
+        "addressLine1": "Südliche Münchner Str. 62",
+        "addressLine2": "82031 Grünwald"
+    },
+    "turkeyHQ": {
+        "title": "TÜRKİYE",
+        "company": "Praktiga Teknoloji A.Ş.",
+        "addressLine1": "İçerenköy Mah. Topçu İbrahim Sk. Quick Tower No: 8-10D",
+        "addressLine2": "Ataşehir / İstanbul"
+    },
+    "footer": {
+        "addressTitle": "Adres",
+        "address": "123 Ana Cadde, Şehir, Ülke",
+        "contactTitle": "İletişim",
+        "contact": "E-posta: info@example.com, Telefon: +123456789",
+        "copyright": "Tüm Hakları Saklıdır",
+        "linksTitle": "Hızlı Bağlantılar",
+        "about": "Hakkımızda",
+        "services": "Hizmetler",
+        "contactUs": "Bize Ulaşın"
+    }
+}

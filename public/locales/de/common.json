@@ -1,0 +1,86 @@
+{
+    "Home": "Startseite",
+    "Page": "Seite",
+    "page1": "Seite 1",
+    "page2": "Seite 2",
+    "page3": "Seite 3",
+    "toggle_dark_mode": "Dunkler Modus umschalten",
+    "welcome": "Willkommen in Praktiga",
+    "services": {
+        "title": "Unsere Dienstleistungen",
+        "service1": "Beratung",
+        "description1": "Wir helfen Ihnen, Ihre IAM-Übersicht zu helfen und helfen Ihnen, eine robuste Strategie zu entwickeln und fundierte Entscheidungen zu treffen.",
+        "service2": "Consulting",
+        "description2": "Unsere Berater übersetzen Ihre Geschäftsanforderungen in funktionale Anforderungen und helfen Ihnen, die richtige IAM-Technologie auszuwählen.",
+        "service3": "Implementierung",
+        "description3": "Unsere zertifizierten Fachleute führen eine nahtlose Implementierung Ihrer ausgewählten IAM-Lösungen durch und stellen so eine minimale Störung Ihres Betriebs sicher.",
+        "service4": "Testen",
+        "description4": "Wir wenden einen strukturierten Testansatz an, um die Qualität und Zuverlässigkeit Ihrer IAM-Systeme vor der Bereitstellung sicherzustellen.",
+        "service5": "Integration",
+        "description5": "Wir verbinden Ihre IAM-Lösung mit verschiedenen Anwendungen und ermöglichen so einen koordinierten und einheitlichen Identitätsmanagement-Ansatz.",
+        "service6": "Betrieb & Support",
+        "description6": "Stärken Sie Ihr Team mit unseren Support-Services oder überlassen Sie uns ganz Ihren IAM-Betrieb, um einen kontinuierlichen Schutz und Effizienz zu gewährleisten."
+    },
+    "career": {
+        "topTeam": {
+            "title": "Top-Team, Smarte Lösungen",
+            "description": "Unser Team, bestehend aus den besten IAM-Profis der Branche, spezialisiert sich auf die Bereitstellung innovativer Lösungen in Sektoren wie Finanzen, Automobil, Gesundheitswesen und öffentlichem Sektor."
+        },
+        "career": {
+            "title": "Karriere",
+            "description": "Wir engagieren uns dafür, Ihr Wachstum durch vielfältige Karrierewege, umfassende Schulungen und die Entfaltung Ihres Potenzials zu fördern. Schließen Sie sich uns an, um zu lernen, zu wachsen und zu glänzen!"
+        },
+        "wellBeing": {
+            "title": "Wohlbefinden",
+            "description": "Wir legen Wert auf eine ausgewogene Work-Life-Balance mit Flexibilität und fördern gleichzeitig Wachstum und Unterstützung. Es ist nicht nur ein Job; es ist der Ort, an dem Sie persönlich und beruflich gedeihen."
+        },
+        "companyCulture": {
+            "title": "Unternehmenskultur",
+            "description": "Wir fördern Teamarbeit, Innovation, Vielfalt und Inklusivität und schaffen ein Umfeld, in dem jeder beitragen und erfolgreich sein kann."
+        }
+    },
+    "whyChoose": {
+        "header": "Warum Praktiga wählen?",
+        "expertConsultants": {
+            "title": "Expertenberater",
+            "description": "Unser Team besteht aus Branchenveteranen mit umfangreicher Erfahrung im IAM."
+        },
+        "tailoredSolutions": {
+            "title": "Maßgeschneiderte Lösungen",
+            "description": "Wir passen unsere Dienstleistungen an Ihre spezifischen Bedürfnisse und Herausforderungen an."
+        },
+        "provenTrackRecord": {
+            "title": "Bewährte Erfolgsbilanz",
+            "description": "Vertraut von führenden Unternehmen liefern wir messbare, sichere und konforme IAM-Lösungen."
+        },
+        "comprehensiveSupport": {
+            "title": "Umfassende Unterstützung",
+            "description": "Von der Strategie bis zur Implementierung bieten wir fortlaufende Unterstützung, um Ihren Erfolg sicherzustellen."
+        }
+    },
+    "germanyHQ": {
+        "title": "DEUTSCHLAND (HAUPTSITZ)",
+        "company": "Praktiga Consulting GmbH",
+        "companyName": "Praktiga Consulting GmbH",
+        "address": "Adresse",
+        "addressLine1": "Südliche Münchner Str. 62",
+        "addressLine2": "82031 Grünwald"
+    },
+    "turkeyHQ": {
+        "title": "TÜRKEI",
+        "company": "Praktiga Teknoloji A.Ş.",
+        "addressLine1": "İçerenköy Mah. Topçu İbrahim Sk. Quick Tower No: 8-10D",
+        "addressLine2": "Ataşehir / Istanbul"
+    },
+    "footer": {
+        "addressTitle": "Adresse",
+        "address": "123 Hauptstraße, Stadt, Land",
+        "contactTitle": "Kontakt",
+        "contact": "E-Mail: info@example.com, Telefon: +123456789",
+        "copyright": "Alle Rechte vorbehalten",
+        "linksTitle": "Schnellzugriffe",
+        "about": "Über uns",
+        "services": "Dienstleistungen",
+        "contactUs": "Kontaktieren Sie uns"
+    }
+}
