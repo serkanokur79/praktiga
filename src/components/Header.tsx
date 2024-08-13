@@ -70,7 +70,16 @@ export default function Header() {
                     <DarkModeSelector />
                 </div>
             </div>
-            <div className='md:hidden'>
+            <div className='md:hidden flex flex-row gap-1'>
+                <select
+                    onChange={(e) => handleLanguageChange(e.target.value)}
+                    value={language}
+                    className="p-2 rounded"
+                >
+                    <option value="en">English</option>
+                    <option value="de">Deutsch</option>
+                    <option value="tr">Türkçe</option>
+                </select>
                 <DarkModeSelector />
                 <Sheet open={open} onOpenChange={setOpen}>
                     {/* This button will trigger open the mobile sheet menu */}
