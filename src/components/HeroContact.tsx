@@ -9,7 +9,7 @@ const HeroContactSection = () => {
     const { t } = useTranslation('common');
 
     return (
-        <div className="relative h-[11rem] md:h-[18rem] overflow-hidden w-full">
+        <div className="relative h-[9rem] md:h-[18rem] overflow-hidden w-full">
             <video
                 autoPlay
                 loop
@@ -23,8 +23,8 @@ const HeroContactSection = () => {
 
 
             <div className="relative z-20 flex flex-col   px-4 text-center text-white dark:text-gray-400 mt-[0.2rem] md:mt-[4rem]">
-                <h1 className="text-3xl xl:xtext-4xl font-bold mx-auto my-2 xl:mb-4"> {t('contact.contact_us')}</h1>
-                <p className="text-lg mb-4 mr-8">
+                <h1 className="text-xl md:text-3xl xl:xtext-4xl font-bold mx-auto my-2 xl:mb-4"> {t('contact.contact_us')}</h1>
+                <p className="text-sm md:text-lg mb-4 mr-8">
                     {t('contact.description')}
                 </p>
 
