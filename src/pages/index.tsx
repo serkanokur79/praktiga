@@ -30,7 +30,7 @@ export default function Home() {
   const { locale } = router;
   return (
     <main
-      className={`flex flex-col w-full min-h-screen bg-transparent `}
+      className={`flex flex-col w-full bg-transparent `}
     >
       <HeroSection />
       <ServicesSection />
