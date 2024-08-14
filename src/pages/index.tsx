@@ -29,7 +29,7 @@ export default function Home() {
   const { locale } = router;
   return (
     <main
-      className={`flex   flex-col  overflow-scroll`}
+      className={`flex flex-col w-full min-h-screen bg-transparent `}
     >
       <HeroSection />
       <ServicesSection />

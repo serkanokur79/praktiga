@@ -20,10 +20,12 @@ function App({ Component, pageProps }: AppProps) {
     enableSystem
     disableTransitionOnChange
   >
-    {isClient && <>
+    {isClient && <div className="h-[calc(100dvh)] flex flex-col" >
       <Header />
-      <Component {...pageProps} />
-      <Footer /></>}
+      <div className="container flex-grow" >
+        <Component {...pageProps} />
+      </div>
+      <Footer /></div>}
   </ThemeProvider>;
 }
 export default appWithTranslation(App)

@@ -11,7 +11,7 @@ const CareerPage = () => {
     const { i18n } = useTranslation();
     const { t } = useTranslation('common');
     return (
-        <div className="px-4 bg-transparent  w-full max-7-xl mx-auto">
+        <div className="px-4 bg-transparent  w-full max-7-xl mx-auto ]">
             <div className=" mx-auto text-center">
                 {/* <Video /> */}
                 <HeroCareerSection />

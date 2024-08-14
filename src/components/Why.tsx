@@ -6,9 +6,9 @@ const WhyChoosePraktiga: FC = () => {
     const { t } = useTranslation('common');
 
     return (
-        <section className="py-16 bg-gray-100 dark:bg-gray-900">
+        <section className="py-4 bg-gray-100 dark:bg-gray-900">
             <div className="container mx-auto text-center">
-                <h2 className="text-3xl font-bold mb-8 text-gray-800 dark:text-white">{t('whyChoose.header')}</h2>
+                <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-white">{t('whyChoose.header')}</h2>
 
                 <div className=" grid lg:grid-cols-2 gap-2">
                     {/* Odd Row: Image on the left */}

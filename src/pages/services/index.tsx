@@ -12,7 +12,7 @@ const ServicePage = () => {
     const { i18n } = useTranslation();
     const { t } = useTranslation('common');
     return (
-        <div className="w-full max-7-xl mx-auto min-h-[calc(100vh-21rem)]">
+        <div className="w-full max-7-xl mx-auto ">
             <HeroSection />
             <div className=" mx-auto text-center">
                 <TrustSection />

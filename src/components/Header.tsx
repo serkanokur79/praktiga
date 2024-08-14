@@ -50,27 +50,28 @@ export default function Header() {
 
 
 
-        <header className="flex justify-between items-center gap-4 bg-gray-100 dark:bg-gray-800 h-[4rem]">
-            <div className="text-xl font-bold m-3">
-                <Link href="/">Prakt<span className='text-blue-500'>iga</span></Link>
-            </div>
-            <div className='hidden md:flex md:flex-1'>
-                <nav className='flex flex-row justify-end  flex-1 px-8'>
+        <header className=" my-auto w-full flex  bg-gray-100 dark:bg-gray-800 h-[4rem]">
+            <div className='container flex justify-between items-center gap-4'>
+                <div className="text-xl font-bold m-3">
+                    <Link href="/">Prakt<span className='text-blue-500'>iga</span></Link>
+                </div>
+                <div className='hidden md:flex md:flex-1'>
+                    <nav className='flex flex-row justify-end  flex-1 px-8'>
 
-                    {headerItems.map((item, index) => (
-                        <Link key={index} href={item.link}>
-                            <Button variant="link">
-                                {item.name}
-                            </Button>
-                        </Link>
-                    ))}
-                </nav>
-                {/* <button onClick={toggleDarkMode} className="p-2 bg-gray-200 dark:bg-gray-700 rounded">
+                        {headerItems.map((item, index) => (
+                            <Link key={index} href={item.link}>
+                                <Button variant="link">
+                                    {item.name}
+                                </Button>
+                            </Link>
+                        ))}
+                    </nav>
+                    {/* <button onClick={toggleDarkMode} className="p-2 bg-gray-200 dark:bg-gray-700 rounded">
                 {t('toggle_dark_mode')}
             </button> */}
 
-                <div className='flex flex-row gap-2 px-2'>
-                    {/* <select
+                    <div className='flex flex-row gap-2 px-2'>
+                        {/* <select
                         onChange={(e) => handleLanguageChange(e.target.value)}
                         value={language}
                         className="p-2 rounded bg-transparent"
@@ -79,7 +80,31 @@ export default function Header() {
                         <option value="de" className='bg-gray-200 dark:gray-900 dark:text-gray-200' >Deutsch</option>
                         <option value="tr" className='bg-gray-200 dark:gray-900 dark:text-gray-200'>Türkçe</option>
                     </select> */}
-                    <Select onValueChange={handleLanguageChange} value={language} >
+                        <Select onValueChange={handleLanguageChange} value={language} >
+                            <SelectTrigger className='justify-end text-center  w-[6rem] border-none bg-transparent'>
+                                {language === 'en' ? 'English  ' : language === 'de' ? 'Deutsch  ' : 'Türkçe  '}
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="en">English</SelectItem>
+                                <SelectItem value="de">Deutsch</SelectItem>
+                                <SelectItem value="tr">Türkçe</SelectItem>
+                            </SelectContent>
+                        </Select>
+                        <DarkModeSelector />
+                    </div>
+                </div>
+                <div className='md:hidden flex flex-row gap-1'>
+                    {/* <select
+                    onChange={(e) => handleLanguageChange(e.target.value)}
+                    value={language}
+                    className="p-2 rounded bg-transparent"
+                >
+                    <option value="en" className='bg-gray-200 dark:gray-900 dark:text-gray-200'>English</option>
+                    <option value="de" className='bg-gray-200 dark:gray-900 dark:text-gray-200' >Deutsch</option>
+                    <option value="tr" className='bg-gray-200 dark:gray-900 dark:text-gray-200'>Türkçe</option>
+                </select> */}
+
+                    <Select onValueChange={handleLanguageChange} value={language}>
                         <SelectTrigger className='justify-end text-center  w-[6rem] border-none bg-transparent'>
                             {language === 'en' ? 'English  ' : language === 'de' ? 'Deutsch  ' : 'Türkçe  '}
                         </SelectTrigger>
@@ -90,61 +115,37 @@ export default function Header() {
                         </SelectContent>
                     </Select>
                     <DarkModeSelector />
-                </div>
-            </div>
-            <div className='md:hidden flex flex-row gap-1'>
-                {/* <select
-                    onChange={(e) => handleLanguageChange(e.target.value)}
-                    value={language}
-                    className="p-2 rounded bg-transparent"
-                >
-                    <option value="en" className='bg-gray-200 dark:gray-900 dark:text-gray-200'>English</option>
-                    <option value="de" className='bg-gray-200 dark:gray-900 dark:text-gray-200' >Deutsch</option>
-                    <option value="tr" className='bg-gray-200 dark:gray-900 dark:text-gray-200'>Türkçe</option>
-                </select> */}
-
-                <Select onValueChange={handleLanguageChange} value={language}>
-                    <SelectTrigger className='justify-end text-center  w-[6rem] border-none bg-transparent'>
-                        {language === 'en' ? 'English  ' : language === 'de' ? 'Deutsch  ' : 'Türkçe  '}
-                    </SelectTrigger>
-                    <SelectContent>
-                        <SelectItem value="en">English</SelectItem>
-                        <SelectItem value="de">Deutsch</SelectItem>
-                        <SelectItem value="tr">Türkçe</SelectItem>
-                    </SelectContent>
-                </Select>
-                <DarkModeSelector />
-                <Sheet open={open} onOpenChange={setOpen}>
-                    {/* This button will trigger open the mobile sheet menu */}
-                    <SheetTrigger asChild>
-                        <Button size='icon' variant="outline" className="md:hidden mx-2 bg-transparent">
-                            <MenuIcon className='h-6 w-6' />
-                        </Button>
-                    </SheetTrigger>
+                    <Sheet open={open} onOpenChange={setOpen}>
+                        {/* This button will trigger open the mobile sheet menu */}
+                        <SheetTrigger asChild>
+                            <Button size='icon' variant="outline" className="md:hidden mx-2 bg-transparent">
+                                <MenuIcon className='h-6 w-6' />
+                            </Button>
+                        </SheetTrigger>
 
 
-                    <SheetContent side="right" className='w-1/3'>
-                        <div className="flex flex-col items-end">
-                            {headerItems.map((item, index) => (
-                                <Link key={index} href={item.link}>
-                                    <Button
-                                        key={index}
-                                        variant="link"
-                                        onClick={() => {
-                                            setOpen(false);
-                                        }}
+                        <SheetContent side="right" className='w-1/3'>
+                            <div className="flex flex-col items-end">
+                                {headerItems.map((item, index) => (
+                                    <Link key={index} href={item.link}>
+                                        <Button
+                                            key={index}
+                                            variant="link"
+                                            onClick={() => {
+                                                setOpen(false);
+                                            }}
 
-                                    >
-                                        {item.name}
-                                    </Button></Link>
-                            ))}
+                                        >
+                                            {item.name}
+                                        </Button></Link>
+                                ))}
 
-                            <DarkModeSelector />
-                        </div>
+                                <DarkModeSelector />
+                            </div>
 
-                    </SheetContent>
-                </Sheet>
-            </div>
+                        </SheetContent>
+                    </Sheet>
+                </div></div>
         </header></>
     );
 };

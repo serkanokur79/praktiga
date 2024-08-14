@@ -79,10 +79,10 @@ const ServicesSection = () => {
 
     return (
 
-        <section className="py-8 bg-gray-200 dark:bg-gray-900">
+        <section className="py-4 bg-gray-200 dark:bg-gray-900 mb-4">
             <div className="container mx-auto text-center">
-                <h2 className="text-3xl font-bold mb-8 text-gray-800 dark:text-white">{t('services.title')}</h2>
-                <div className="grid grid-cols-2 gap-8 md:grid-cols-3">
+                <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-white">{t('services.title')}</h2>
+                <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
                     {servicesT.map((service, index) => (
                         <div key={index} className="bg-gray-50 dark:bg-gray-950 p-2 md:p-6 rounded-lg shadow-sm hover:shadow-2xl  hover:border-2 transition-shadow duration-300 border-2 border-white hover:border-gray-300 dark:border-gray-950 hover:dark:border-gray-600 hover:dark:shadow-md hover:dark:shadow-gray-600">
                             <div className="flex items-center justify-center mb-4">

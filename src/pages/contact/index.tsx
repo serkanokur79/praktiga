@@ -14,7 +14,7 @@ const CareerPage = () => {
     const { t } = useTranslation('common');
 
     return (
-        <div className=" bg-transparent  w-full max-7-xl mx-auto min-h-[calc(100vh-21rem)]">
+        <div className=" bg-transparent  w-full max-7-xl mx-auto ">
             <div className=" mx-auto text-center">
 
                 <HeroContactSection />
