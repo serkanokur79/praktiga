@@ -3,10 +3,11 @@ import { useTranslation } from 'next-i18next';
 import '../../../i18n'
 // import HeroCareerSection from "@/components/HeroCar";
 import dynamic from 'next/dynamic';
+import HeroContactSection from '@/components/HeroContact';
 
 const Map = dynamic(() => import('@/components/Map'), { ssr: false, loading: () => <p>Loading...</p> });
 
-const HeroContactSection = dynamic(() => import('@/components/HeroContact'), { ssr: false, loading: () => <p>Loading...</p> });
+// const HeroContactSection = dynamic(() => import('@/components/HeroContact'), { ssr: false, loading: () => <p>Loading...</p> });
 
 const CareerPage = () => {
     const { i18n } = useTranslation();
@@ -20,11 +21,11 @@ const CareerPage = () => {
                 <div className='flex flex-col xl:flex-row w-full  bg-transparent'>
                     <section className="py-8 bg-transparent dark:bg-gray-900 w-full">
                         <div className="container w-full mx-auto text-center">
-                            <h2 className="text-3xl font-bold mb-8 text-center text-gray-800 dark:text-white">
+                            <h2 className="text-xl xl:text-3xl font-bold mb-2 xl:mb-8 text-center text-gray-800 dark:text-white">
                                 {t('germanyHQ.title')}
                             </h2>
                             <div className="flex flex-col justify-center items-center">
-                                <div className="md:w-1/2 mb-4 md:mb-0 md:pr-8 text-center">
+                                <div className="md:w-1/2 mb-0 md:pr-8 text-center">
                                     <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">
                                         {t('germanyHQ.company')}
                                     </h3>
@@ -43,7 +44,7 @@ const CareerPage = () => {
                     </section>
                     <section className="py-8 bg-transparent dark:bg-gray-900 w-full ">
                         <div className="container w-full mx-auto text-center">
-                            <h2 className="text-3xl font-bold mb-8 text-gray-800 dark:text-white">
+                            <h2 className="text-xl xl:text-3xl font-bold mb-2 xl:mb-8 text-gray-800 dark:text-white">
                                 {t('turkeyHQ.title')}
                             </h2>
                             <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">
