@@ -27,7 +27,9 @@ const Footer: FC = () => {
                     <div className="text-center md:text-left mb-4">
                         <h2 className="text-xl font-bold">Praktiga Consulting GmbH</h2>
                         {/* <h4 className="font-bold">{t('footer.addressTitle')}</h4> */}
-                        <div className="mt-2 flex flex-row md:flex-col xl:flex-row">
+                        <div className="mt-2 flex md:hidden xl:flex">
+                            Südliche Münchner Str. 62, 82031, Grünwald, Germany</div>
+                        <div className="mt-2 hidden md:flex md:flex-col xl:hidden">
                             <span>Südliche Münchner Str. 62, </span>
                             <span>82031, Grünwald, Germany</span></div>
                         {/* <h4 className="font-bold mt-2">{t('footer.contactTitle')}</h4> */}
