@@ -11,8 +11,8 @@ const GetInTouch: FC = () => {
     return (
         <section className="py-4 bg-transparent text-gray-800 dark:text-white my-4">
             <div className="container mx-auto text-center">
-                <h2 className="text-3xl font-bold mb-4">{t('getInTouch.title')}</h2>
-                <p className="text-lg mb-8 w-1/2 mx-auto">{t('getInTouch.description')}</p>
+                <h2 className="text-xl md:text-3xl font-bold mb-4">{t('getInTouch.title')}</h2>
+                <p className="text-sm md:text-lg mb-8 w-11/12 mx-auto">{t('getInTouch.description')}</p>
                 <Link
                     href="/contact"
 
