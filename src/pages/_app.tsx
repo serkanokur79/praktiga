@@ -22,7 +22,7 @@ function App({ Component, pageProps }: AppProps) {
   >
     {isClient && <div className="h-[calc(100dvh)] flex flex-col" >
       <Header />
-      <div className="container flex-grow" >
+      <div className="md:container flex-grow" >
         <Component {...pageProps} />
       </div>
       <Footer /></div>}

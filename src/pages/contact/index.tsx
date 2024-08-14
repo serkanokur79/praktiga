@@ -38,9 +38,9 @@ const CareerPage = () => {
                                     {t('germanyHQ.addressLine2')}
                                 </p>
 
+                                <Map lat="48.0482" lng="11.5236" />
                             </div>
                         </div>
-                        <Map lat="48.0482" lng="11.5236" />
                     </section>
                     <section className="py-4 mt-4 mb-2 bg-gray-50 dark:bg-gray-800/50 w-full ">
                         <div className="w-full mx-auto text-center">
@@ -55,8 +55,8 @@ const CareerPage = () => {
                                 <br />
                                 {t('turkeyHQ.addressLine2')}
                             </p>
+                            <Map lat="41.015137" lng="28.979530" />
                         </div>
-                        <Map lat="41.015137" lng="28.979530" />
                     </section>
                 </div>
             </div>
