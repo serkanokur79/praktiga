@@ -17,7 +17,7 @@ const CareerPage = () => {
                 <HeroCareerSection />
                 <div className="py-4 bg-transparent">
                     <div className=" mx-auto text-center">
-                        <div className="grid grid-cols-2 lg:grid-cols-2 2xl:grid-cols-4 gap-4">
+                        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
                             <div className="bg-transparent p-4 rounded-lg shadow-lg">
                                 <Image src="/images/image1.jpg" alt="Top Team" className="w-full h-24 md:h-48 object-cover rounded-t-lg mb-4" width={600} height={600} />
                                 <h1 className="text-lg 2xl:text-xl font-bold mb-4 text-gray-800 dark:text-white">{t('career.topTeam.title')}</h1>
