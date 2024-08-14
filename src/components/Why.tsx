@@ -13,8 +13,8 @@ const WhyChoosePraktiga: FC = () => {
                 <div className=" grid lg:grid-cols-2 gap-2">
                     {/* Odd Row: Image on the left */}
                     <div className="flex flex-row md:flex-row items-center border-2 bg-white dark:bg-gray-800 dark:border-gray-800  ">
-                        <div className="md:w-1/3 h-full p-7">
-                            <Image src="/images/experts.png" alt={t('whyChoose.expertConsultants.description')} className="h-full w-auto rounded-lg object-cover" width={200} height={200} />
+                        <div className="md:w-1/3 w-full pl-5">
+                            <Image src="/images/experts.png" alt={t('whyChoose.expertConsultants.description')} className="w-full h-auto rounded-lg object-cover" width={200} height={200} />
                         </div>
                         <div className="md:w-2/3 p-4 md:p-8 flex flex-col align-top justify-start">
                             <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">{t('whyChoose.expertConsultants.title')}</h3>
@@ -24,8 +24,8 @@ const WhyChoosePraktiga: FC = () => {
 
                     {/* Even Row: Text on the left */}
                     <div className="flex flex-row-reverse items-center border-2 bg-white dark:bg-gray-800 dark:border-gray-800  ">
-                        <div className="md:w-1/3 h-full px-4 md:p-4">
-                            <Image src="/images/TailorTT.png" alt={t('whyChoose.tailoredSolutions.title')} className="h-full w-auto rounded-lg object-cover" width={200} height={200} />
+                        <div className="md:w-1/3 w-full pr-4 ">
+                            <Image src="/images/TailorTT.png" alt={t('whyChoose.tailoredSolutions.title')} className="w-full h-auto rounded-lg object-cover" width={200} height={200} />
 
                         </div>
                         <div className="md:w-2/3 p-4 md:p-8 ">
@@ -36,8 +36,8 @@ const WhyChoosePraktiga: FC = () => {
 
                     {/* Odd Row: Image on the left */}
                     <div className="flex flex-row md:flex-row items-center border-2  bg-white dark:bg-gray-800 dark:border-gray-800  ">
-                        <div className="md:w-1/3">
-                            <Image src="/images/proven.png" alt={t('whyChoose.provenTrackRecord.title')} className="h-full w-auto  object-cover" width={200} height={200} />
+                        <div className="md:w-1/3 w-full">
+                            <Image src="/images/proven.png" alt={t('whyChoose.provenTrackRecord.title')} className="w-full h-auto  object-cover" width={200} height={200} />
 
                         </div>
                         <div className="md:w-1/2 md:pl-8">
@@ -48,10 +48,10 @@ const WhyChoosePraktiga: FC = () => {
 
                     {/* Even Row: Text on the left */}
                     <div className="flex flex-row-reverse items-center border-2  bg-white dark:bg-gray-800 dark:border-gray-800  ">
-                        <div className="md:w-1/3 h-full p-4 md:p-7">
-                            <Image src="/images/Ex.png" alt={t('whyChoose.comprehensiveSupport.title')} className="h-full w-auto  object-cover rounded-xl" width={200} height={200} />
+                        <div className="md:w-1/3 w-full pr-4">
+                            <Image src="/images/Ex.png" alt={t('whyChoose.comprehensiveSupport.title')} className="w-full h-auto  object-cover rounded-xl" width={200} height={200} />
                         </div>
-                        <div className="md:w-2/3 p-4 md:p-8 ">
+                        <div className="md:w-2/3 p-4  ">
                             <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">{t('whyChoose.comprehensiveSupport.title')}</h3>
                             <p className="text-gray-600 dark:text-gray-300">{t('whyChoose.comprehensiveSupport.description')}</p>
                         </div>

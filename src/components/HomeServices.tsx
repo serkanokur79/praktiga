@@ -6,41 +6,14 @@ import { SiTripadvisor } from "react-icons/si";
 import { TbPlugConnected } from "react-icons/tb";
 import { VscVmConnect } from "react-icons/vsc";
 import '../../i18n'
+import Link from 'next/link';
+import { Button } from './ui/button';
+import { Popover, PopoverContent, PopoverTrigger } from './ui/popover';
+import { TooltipProvider } from '@radix-ui/react-tooltip';
+import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip';
 
-const services = [
-    {
-        title: 'Advisory',
-        description: 'We guide you through your IAM journey, helping you develop a robust strategy and make informed decisions.',
-        icon: <SiTripadvisor className="w-8 h-8 text-blue-800 dark:text-blue-200" />,
-    },
-    {
-        title: 'Consulting',
-        description: 'Our consultants translate your business needs into functional requirements and help you select the right IAM technology.',
-        icon: <GrUserExpert className="w-8 h-8  text-blue-800 dark:text-blue-200" />,
-    },
-    {
-        title: 'Implementation',
-        description: 'Our certified professionals deliver seamless implementation of your chosen IAM solutions, ensuring minimal disruption to your operations.',
-        icon: <VscVmConnect className="w-8 h-8  text-blue-800 dark:text-blue-200" />,
-    },
-    {
-        title: 'Testing',
-        description: 'We employ a structured approach to testing, ensuring the quality and reliability of your IAM systems before deployment.',
-        icon: <GrTestDesktop className="w-8 h-8  text-blue-800 dark:text-blue-200" />,
-    },
-    {
-        title: 'Integration',
-        description: 'We connect your IAM solution with various applications, enabling a coordinated and unified approach to identity management.',
-        icon: <TbPlugConnected className="w-8 h-8  text-blue-800 dark:text-blue-200" />,
-    },
-    {
-        title: 'Operation & Support',
-        description: 'Empower your team with our support services, or let us handle your IAM operations entirely, ensuring continuous protection and efficiency',
-        icon: < FaHeadset className="w-8 h-8  text-blue-800 dark:text-blue-200" />,
-    },
-];
 
-const ServicesSection = () => {
+const HomeServicesSection = () => {
     const { i18n } = useTranslation();
     const { t } = useTranslation('common');
 
@@ -48,64 +21,78 @@ const ServicesSection = () => {
         {
             title: (t('services.service1')),
             description: t('services.description1'),
-            icon: <SiTripadvisor className="w-6 h-6 md:w-8 md:h-8 text-blue-800 dark:text-blue-200" />,
+            icon: <SiTripadvisor className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16 text-blue-800 dark:text-blue-200" />,
         },
         {
             title: (t('services.service2')),
             description: t('services.description2'),
-            icon: <GrUserExpert className="w-6 h-6 md:w-8 md:h-8  text-blue-800 dark:text-blue-200" />,
+            icon: <GrUserExpert className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16  text-blue-800 dark:text-blue-200" />,
         },
         {
             title: (t('services.service3')),
             description: t('services.description3'),
-            icon: <VscVmConnect className="w-6 h-6 md:w-8 md:h-8  text-blue-800 dark:text-blue-200" />,
+            icon: <VscVmConnect className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16  text-blue-800 dark:text-blue-200" />,
         },
         {
             title: (t('services.service4')),
             description: t('services.description4'),
-            icon: <GrTestDesktop className="w-6 h-6 md:w-8 md:h-8  text-blue-800 dark:text-blue-200" />,
+            icon: <GrTestDesktop className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16  text-blue-800 dark:text-blue-200" />,
         },
         {
             title: (t('services.service5')),
             description: t('services.description5'),
-            icon: <TbPlugConnected className="w-6 h-6 md:w-8 md:h-8  text-blue-800 dark:text-blue-200" />,
+            icon: <TbPlugConnected className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16  text-blue-800 dark:text-blue-200" />,
         },
         {
             title: (t('services.service6')),
             description: t('services.description6'),
-            icon: < FaHeadset className="w-6 h-6 md:w-8 md:h-8  text-blue-800 dark:text-blue-200" />,
+            icon: < FaHeadset className="w-8 h-8 md:w-12 md:h-12  text-blue-800 dark:text-blue-200" />,
         },
     ]
 
     return (<>
-        {/* <section className="py-16 bg-transparent">
+
+
+        <section className="py-4 bg-transparent">
             <div className="container mx-auto text-center">
-                <h2 className="text-3xl font-bold mb-8 text-gray-800 dark:text-white">Our Services</h2>
-                <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-                    {services.map((service, index) => (
-                        <div key={index} className="bg-gray-50 dark:bg-gray-950 p-6 rounded-lg shadow-xl hover:shadow-2xl  hover:border-2 transition-shadow duration-300">
-                            <div className="flex items-center justify-center mb-4">
-                                {service.icon}
-                                <h3 className="text-xl font-semibold my-auto mx-2 text-gray-800 dark:text-white">{service.title}</h3>   </div>
-                            <p className="text-gray-600 dark:text-gray-300">{service.description}</p>
-                        </div>
+                <h2 className="text-3xl font-bold  text-gray-800 dark:text-white">{t('services.title')}</h2>
+                <div className="grid grid-cols-2 gap-3 md:grid-cols-3 my-4">
+                    {/* {servicesT.map((service, index) => (
+
+                        <Popover key={index}>
+                            <PopoverTrigger>
+                                <div key={index} className="bg-gray-50 dark:bg-gray-950 hover:shadow-2xl dark:hover:shadow-gray-700 dark:hover:shadow-lg  p-4  transition-shadow duration-300 group">
+                                    <div className="flex flex-col items-center justify-center mb-4">
+                                        {service.icon}
+                                        <h3 className=" text-md md:text-xl font-semibold my-auto mx-2 text-gray-800 dark:text-white">{service.title}</h3></div>
+                                </div>
+                            </PopoverTrigger>
+                            <PopoverContent >{service.description}</PopoverContent>
+                        </Popover>
+                    )
+
+                    )} */}
+                    {servicesT.map((service, index) => (
+                        <TooltipProvider key={index}>
+                            <Tooltip>
+                                <TooltipTrigger>
+                                    <div className="flex flex-col items-center justify-center mb-4">
+                                        {service.icon}
+                                        <h3 className=" text-md md:text-xl font-semibold my-auto mx-2 text-gray-800 dark:text-white">{service.title}</h3>   </div>
+                                </TooltipTrigger>
+                                <TooltipContent className="w-64">
+                                    <p >{service.description}</p>
+                                </TooltipContent>
+                            </Tooltip>
+                        </TooltipProvider>
                     ))}
                 </div>
-            </div>
-        </section> */}
-
-        <section className="py-16 bg-transparent">
-            <div className="container mx-auto text-center">
-                <h2 className="text-3xl font-bold mb-8 text-gray-800 dark:text-white">{t('services.title')}</h2>
-                <div className="grid grid-cols-2 gap-8 md:grid-cols-3">
-                    {servicesT.map((service, index) => (
-                        <div key={index} className="bg-gray-50 dark:bg-gray-950 p-2 md:p-6 rounded-lg shadow-xl hover:shadow-2xl  hover:border-2 transition-shadow duration-300">
-                            <div className="flex items-center justify-center mb-4">
-                                {service.icon}
-                                <h3 className=" text-md md:text-xl font-semibold my-auto mx-2 text-gray-800 dark:text-white">{service.title}</h3>   </div>
-                            <p className="text-gray-600 dark:text-gray-300 text-sm md:text-md">{service.description}</p>
-                        </div>
-                    ))}
+                <div className="text-center ">
+                    <Link href="/services">
+                        <Button variant='outline'>
+                            Learn more
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </section>
@@ -113,4 +100,4 @@ const ServicesSection = () => {
     );
 };
 
-export default ServicesSection;
+export default HomeServicesSection;

@@ -78,6 +78,12 @@
         "contact_us": "Kontaktieren Sie uns!",
         "description": "Unsere Experten sind bereit zu helfen! Kontaktieren Sie uns über einen der folgenden Kanäle:"
     },
+    "trust": {
+        "title": "Vertrauen & Kompetenz",
+        "content": "Praktiga Consulting ist der Ort, an dem die besten IAM-Experten (Identity and Access Management) zusammenkommen. Wir sind ein Team mit umfassender Erfahrung in IAM-Lösungen, das in Branchen wie Finanzen, Automobil, Gesundheitswesen und Regierung einen Unterschied macht.",
+        "content2": " Wir verstehen die Herausforderungen, denen Organisationen gegenüberstehen, da wir uns in derselben Position wie unsere Kunden befinden – verantwortlich für die Integration und Wartung eines Produkts, das praktisch jeden Aspekt der Infrastruktur eines Unternehmens berührt. In dieser kritischen Phase wird es entscheidend, einen zuverlässigen Partner zu finden, dem Sie vertrauen können, um Sie in die richtige Richtung zu lenken.",
+        "content3": "Praktiga ist eine globale Kraft mit dynamischen Teams in Deutschland und der Türkei. Unsere Mission ist einfach: Sie konzentrieren sich auf Ihr Geschäft, und wir kümmern uns um Ihre IAM-Reise und sorgen dafür, dass sie sicher, konform und effizient ist. Willkommen bei Praktiga Consulting – Ihrem Partner bei der Bewältigung von IAM-Herausforderungen."
+    },
     "germanyHQ": {
         "title": "DEUTSCHLAND (HAUPTSITZ)",
         "company": "Praktiga Consulting GmbH",

@@ -12,7 +12,7 @@ const HeroCareerSection = () => {
                 autoPlay
                 loop
                 muted
-                className="absolute z-0 object-cover w-full h-full min-w-full  max-w-none"
+                className="absolute z-0 object-cover w-full h-full min-w-full max-w-none"
             >
                 <source src="/video/praktiga.mp4" type="video/mp4" />
             </video>

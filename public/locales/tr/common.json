@@ -78,6 +78,12 @@
         "contact_us": "Bize ulaşın!",
         "description": "Uzmanlarımız size yardımcı olmaya hazır! Aşağıdaki kanallardan herhangi biri aracılığıyla bize ulaşın:"
     },
+    "trust": {
+        "trust_competence": "Güven & Yetkinlik",
+        "content": "Praktiga Danışmanlık, en iyi IAM (Kimlik ve Erişim Yönetimi) uzmanlarının bir araya geldiği yerdir. Finans, otomotiv, sağlık ve hükümet gibi sektörlerde fark yaratan IAM çözümlerinde derin deneyime sahip bir ekibiz.",
+        "content2": "Kuruluşların karşılaştığı zorlukları anlıyoruz çünkü müşterilerimizin şu anda bulunduğu konumda biz de bulunduk - şirketlerinin altyapısının neredeyse her yönüne dokunan bir ürünü entegre etmek ve sürdürmekten sorumlu. Bu kritik noktada, güvenebileceğiniz bir ortağı bulmak çok önemlidir.",
+        "content3": "Praktiga Danışmanlık, Praktiga, Almanya ve Türkiye'de dinamik ekipleri ile küresel bir güçtür. Misyonumuz basit: Siz işinize odaklanın, biz IAM yolculuğunuzla ilgilenelim ve bunun güvenli, uyumlu ve verimli olmasını sağlayalım. Praktiga Danışmanlık'a hoş geldiniz – IAM zorluklarını aşmada ortağınız."
+    },
     "germanyHQ": {
         "title": "ALMANYA (MERKEZ)",
         "company": "Praktiga Consulting GmbH",

@@ -55,6 +55,12 @@
             "description": "We foster teamwork, innovation, diversity, and inclusivity, creating an environment where everyone can contribute and succeed."
         }
     },
+    "trust": {
+        "title": "Trust & Competence",
+        "content": "Praktiga Consulting is where the best IAM (Identity and Access Management) experts come together. We're a team with deep experience in IAM solutions, making a difference in industries like finance, automotive, healthcare, and government.",
+        "content2": "We understand the challenges faced by organizations, having been in the same position as our clients are now — responsible for integrating and maintaining a product that touches virtually every aspect of their company's infrastructure. At that critical juncture, finding a reliable partner becomes paramount, someone you can trust to steer you in the right direction.",
+        "content3": "Praktiga is a global force with dynamic teams in Germany and Turkey. Our mission is simple: You focus on your business, and we'll take care of your IAM journey, ensuring it's secure, compliant, and efficient. Welcome to Praktiga Consulting – your partner in navigating IAM challenges."
+    },
     "contact": {
         "contact_us": "Contact us!",
         "description": "Our experts are ready to help! Contact us via any of the following channels:"
