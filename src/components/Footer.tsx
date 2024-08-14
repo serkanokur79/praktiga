@@ -20,7 +20,7 @@ const Footer: FC = () => {
         , [t]);
 
     return (
-        <footer className="bg-gray-800 text-white py-2">
+        <footer className="bg-gray-800 text-white py-2 dark:bg-gray-900">
             <div className="container mx-auto ">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     {/* Address and Contact */}
@@ -58,9 +58,9 @@ const Footer: FC = () => {
                     </div>
 
                     {/* Links */}
-                    <div className="text-center   flex flex-col justify-start md:h-[12rem]">
+                    <div className="text-center   flex flex-col justify-start ">
                         {/* <h4 className="font-bold">{t('footer.linksTitle')}</h4> */}
-                        <nav className=' grid grid-cols-3 md:grid-cols-2 xl:grid-cols-3 h-full'>
+                        <nav className=' grid grid-cols-3 md:grid-cols-2 xl:grid-cols-3 '>
 
                             {headerItems.map((item, index) => (
                                 <Link key={index} href={item.link}>
