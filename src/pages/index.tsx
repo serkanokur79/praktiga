@@ -10,6 +10,7 @@ import { useEffect } from "react";
 import HeroSection from "@/components/Hero";
 import ServicesSection from "@/components/HomeServices";
 import WhyChoosePraktiga from "@/components/Why";
+import GetInTouch from "@/components/GetInTouch";
 
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
       <HeroSection />
       <ServicesSection />
       <WhyChoosePraktiga />
+      <GetInTouch />
     </main>
 
 

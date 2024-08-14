@@ -153,6 +153,11 @@
         "vat_id": "Umsatzsteuer-ID",
         "vat_id_number": "Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: TBA",
         "content_responsibility": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
-        "content_responsible_person": "Yavuz Gürcan, Südliche Münchner Str. 62, 82031 Grünwald"
+        "content_responsible_person": "Yavuz Gürcan, Südliche Münchner Str. 62, 82031 Grünwald, Deutschland"
+    },
+    "getInTouch": {
+        "title": "Kontaktieren Sie uns",
+        "description": "Sichern Sie Ihr Unternehmen mit Praktiga. Kontaktieren Sie uns noch heute, um zu erfahren, wie wir Ihre IAM-Bedürfnisse unterstützen und Ihnen den Fokus auf Ihr Kerngeschäft ermöglichen können.",
+        "contactButton": "Kontaktieren Sie uns"
     }
 }

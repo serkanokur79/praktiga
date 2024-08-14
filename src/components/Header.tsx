@@ -46,11 +46,8 @@ export default function Header() {
         i18n.changeLanguage(newLocale);
     };
 
-    return (<>
-
-
-
-        <header className=" my-auto w-full flex  bg-gray-100 dark:bg-gray-800 h-[4rem]">
+    return (
+        <header className=" my-auto w-full flex  bg-gray-100 dark:bg-gray-800 min-h-[4rem]">
             <div className='container flex justify-between items-center gap-4'>
                 <div className="text-xl font-bold m-3">
                     <Link href="/">Prakt<span className='text-blue-500'>iga</span></Link>
@@ -146,6 +143,6 @@ export default function Header() {
                         </SheetContent>
                     </Sheet>
                 </div></div>
-        </header></>
+        </header>
     );
 };

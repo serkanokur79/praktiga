@@ -153,6 +153,11 @@
         "vat_id": "KDV Kimlik Numarası",
         "vat_id_number": "Alman KDV Yasası §27 a'ya göre KDV Kimlik Numarası: TBA",
         "content_responsibility": "İçerikten Sorumlu Kişi § 55 Abs. 2 RStV",
-        "content_responsible_person": "Yavuz Gürcan, Südliche Münchner Str. 62, 82031 Grünwald"
+        "content_responsible_person": "Yavuz Gürcan, Südliche Münchner Str. 62, 82031 Grünwald, Almanya"
+    },
+    "getInTouch": {
+        "title": "Bizimle İletişime Geçin",
+        "description": "Praktiga ile işinizi güvence altına alın. IAM ihtiyaçlarınızı nasıl destekleyebileceğimizi ve sizi asıl işinize odaklanmanızı sağlayabileceğimizi öğrenmek için bugün bizimle iletişime geçin.",
+        "contactButton": "Bize Ulaşın"
     }
 }

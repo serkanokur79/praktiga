@@ -154,6 +154,11 @@
         "vat_id": "VAT ID",
         "vat_id_number": "VAT Identification Number according to §27 a of the German VAT Act: TBA",
         "content_responsibility": "Responsible for content according to § 55 Abs. 2 RStV",
-        "content_responsible_person": "Yavuz Gürcan, Südliche Münchner Str. 62, 82031 Grünwald"
+        "content_responsible_person": "Yavuz Gürcan, Südliche Münchner Str. 62, 82031 Grünwald, Germany"
+    },
+    "getInTouch": {
+        "title": "Get in Touch",
+        "description": "Secure your business with Praktiga. Contact us today to learn how we can support your IAM needs and help you focus on your core business.",
+        "contactButton": "Contact Us"
     }
 }
