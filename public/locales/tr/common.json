@@ -9,7 +9,9 @@
         "home": "Ana Sayfa",
         "services": "Hizmetlerimiz",
         "careers": "Kariyer",
-        "contact": "İletişim"
+        "contact": "İletişim",
+        "imprint": "Legal",
+        "privacy": "Gizlilik Politikası"
     },
     "welcome": "Praktiga'ya Hoşgeldiniz",
     "hero": {
@@ -108,5 +110,49 @@
         "about": "Hakkımızda",
         "services": "Hizmetler",
         "contactUs": "Bize Ulaşın"
+    },
+    "privacy": {
+        "privacy_policy": "Gizlilik Politikası",
+        "data_protection_overview": "1. Veri koruması genel bakış",
+        "general_information": "Genel bilgiler",
+        "general_information_text": "The following information provides a simple overview of what happens to your personal data when you visit our website. Personal data is all data with which you can be personally identified. You can find detailed information on the subject of data protection in our data protection declaration listed under this text.",
+        "data_collection": "Web sitemizde veri toplama",
+        "responsible_for_data_collection": "Bu web sitesinde veri toplamadan kim sorumludur?",
+        "data_processing": "Bu web sitesindeki veri işleme, web sitesi işletmecisi tarafından gerçekleştirilmektedir. İletişim bilgilerini bu web sitesinin imprint bölümünde bulabilirsiniz.",
+        "how_we_collect_data": "Verilerinizi nasıl topluyoruz?",
+        "data_communication": "Bir yandan, verileriniz bize ilettiğinizde toplanır. Bu, örneğin bir iletişim formuna girdiğiniz veriler olabilir.",
+        "technical_data": "Diğer veriler, web sitesini ziyaret ettiğinizde IT sistemlerimiz tarafından otomatik olarak kaydedilir. Bu öncelikle teknik verilerdir (örneğin, internet tarayıcısı, işletim sistemi veya sayfa erişim zamanı). Bu veriler, web sitemize girdiğiniz anda otomatik olarak kaydedilir.",
+        "general_information_and_mandatory_information": "2. Genel bilgiler ve zorunlu bilgiler",
+        "data_protection": "Veri koruma",
+        "operators_take_protection": "Bu sayfaların işletmecileri, kişisel verilerinizin korunmasına çok önem vermektedir. Kişisel verilerinizi gizli tutuyoruz ve yasal veri koruma düzenlemelerine ve bu veri koruma beyanına uygun olarak işliyoruz.",
+        "responsible_body": "Sorumlu organ hakkında bilgi",
+        "responsible_body_info": "Bu web sitesinde veri işleme sorumlu organ: Praktiga Consulting GmbH, Southern Munich Street 62, 82031 Grünwald, Almanya. Sorumlu: Yavuz Gürcan.",
+        "revocation_of_consent": "Veri işlemesine ilişkin rızanızı geri alma",
+        "revocation_info": "Birçok veri işleme işlemi yalnızca açık rızanızla mümkündür. Rızanızı istediğiniz zaman geri alabilirsiniz. Bunu yapmak için sadece bize gayri resmi bir e-posta göndermeniz yeterlidir. Geri alma işlemi, geri alma zamanına kadar gerçekleştirilen veri işlemenin yasallığını etkilemez.",
+        "right_to_lodge_complaint": "Yetkili denetim otoritesine şikayette bulunma hakkı",
+        "complaint_info": "Veri koruma yasalarının ihlali durumunda, etkilenen kişi yetkili denetim otoritesine şikayette bulunma hakkına sahiptir. Veri koruma sorunları için yetkili denetim otoritesi, şirketimizin bulunduğu federal eyaletin eyalet veri koruma yetkilisidir.",
+        "right_to_data_portability": "Veri taşınabilirliği hakkı",
+        "portability_info": "Rızanız veya bir sözleşmenin yerine getirilmesi temelinde otomatik olarak işlediğimiz verilerin size veya bir üçüncü tarafa yaygın, makine tarafından okunabilir bir formatta verilmesini talep etme hakkına sahipsiniz. Verilerin doğrudan başka bir sorumlu tarafa aktarılmasını talep ederseniz, bu yalnızca teknik olarak mümkünse yapılacaktır.",
+        "ssl_tls_encryption": "SSL veya TLS şifrelemesi",
+        "encryption_info": "Gizli içeriklerin, örneğin, bize site işletmecisi olarak gönderdiğiniz siparişler veya taleplerin iletimini korumak için bu site SSL veya TLS şifrelemesi kullanmaktadır. Şifreli bir bağlantıyı, tarayıcı adres çubuğunun \"http://\" dan \"https://\" ye değişmesi ve tarayıcı çubuğundaki kilit simgesi ile tanıyabilirsiniz."
+    },
+    "legal": {
+        "legal_notice": "Yasal Uyarı",
+        "company_info": "Şirket Bilgileri",
+        "company_name": "Praktiga Consulting GmbH",
+        "address": "Südliche Münchner Str. 62, 82031 Grünwald, Almanya",
+        "represented_by": "Temsil eden:",
+        "managing_directors": "Yöneticiler: Dinçer Alkaç, Yavuz Gürcan",
+        "contact": "İletişim",
+        "phone": "Telefon: +49 1525 580 1021",
+        "email": "E-posta: info@praktiga.com",
+        "commercial_register": "Ticaret Sicili Girişi",
+        "registration": "Ticaret siciline kayıt.",
+        "court": "Kayıt Mahkemesi: Amtsgericht München",
+        "register_number": "Kayıt Numarası: HRB 289285",
+        "vat_id": "KDV Kimlik Numarası",
+        "vat_id_number": "Alman KDV Yasası §27 a'ya göre KDV Kimlik Numarası: TBA",
+        "content_responsibility": "İçerikten Sorumlu Kişi § 55 Abs. 2 RStV",
+        "content_responsible_person": "Yavuz Gürcan, Südliche Münchner Str. 62, 82031 Grünwald"
     }
 }

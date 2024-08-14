@@ -10,7 +10,9 @@
         "home": "Home",
         "services": "Services",
         "careers": "Careers",
-        "contact": "Contact"
+        "contact": "Contact",
+        "imprint": "Imprint",
+        "privacy": "Privacy Policy"
     },
     "hero": {
         "title": "Identity & Access Management Consulting",
@@ -109,5 +111,49 @@
         "about": "About Us",
         "services": "Services",
         "contactUs": "Contact Us"
+    },
+    "privacy": {
+        "privacy_policy": "Privacy Policy",
+        "data_protection_overview": "1. Data protection at a glance",
+        "general_information": "General information",
+        "general_information_text": "The following information provides a simple overview of what happens to your personal data when you visit our website. Personal data is all data with which you can be personally identified. You can find detailed information on the subject of data protection in our data protection declaration listed under this text.",
+        "data_collection": "Data collection on our website",
+        "responsible_for_data_collection": "Who is responsible for data collection on this website?",
+        "data_processing": "The data processing on this website is carried out by the website operator. You can find his contact details in the imprint of this website.",
+        "how_we_collect_data": "How do we collect your data?",
+        "data_communication": "On the one hand, your data is collected when you communicate it to us. This may, for example, be data that you enter in a contact form.",
+        "technical_data": "Other data is automatically recorded by our IT systems when you visit the website. This is primarily technical data (e.g. Internet browser, operating system or time of page access). This data is recorded automatically as soon as you enter our website.",
+        "general_information_and_mandatory_information": "2. General information and mandatory information",
+        "data_protection": "Data protection",
+        "operators_take_protection": "The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this data protection declaration.",
+        "responsible_body": "Note on the responsible body",
+        "responsible_body_info": "The responsible body for data processing on this website is: Praktiga Consulting GmbH, Southern Munich Street 62, 82031 Grünwald, Germany. Responsible: Yavuz Gürcan.",
+        "revocation_of_consent": "Revocation of your consent to data processing",
+        "revocation_info": "Many data processing operations are only possible with your express consent. You can revoke your consent at any time. All you need to do is send us an informal email. The legality of the data processing carried out up to the time of revocation remains unaffected by the revocation.",
+        "right_to_lodge_complaint": "Right to lodge a complaint with the competent supervisory authority",
+        "complaint_info": "In the event of violations of data protection law, the person affected has the right to lodge a complaint with the responsible supervisory authority. The responsible supervisory authority for data protection issues is the state data protection officer of the federal state in which our company is based.",
+        "right_to_data_portability": "Right to data portability",
+        "portability_info": "You have the right to have data that we process automatically on the basis of your consent or in fulfillment of a contract handed over to you or to a third party in a common, machine-readable format. If you request that the data be transferred directly to another responsible party, this will only be done if it is technically feasible.",
+        "ssl_tls_encryption": "SSL or TLS encryption",
+        "encryption_info": "For security reasons and to protect the transmission of confidential content, such as orders or enquiries that you send to us as the site operator, this site uses SSL or TLS encryption. You can recognize an encrypted connection by the fact that the address line of the browser changes from \"http://\" to \"https://\" and by the lock symbol in your browser line."
+    },
+    "legal": {
+        "legal_notice": "Legal Notice",
+        "company_info": "Company Information",
+        "company_name": "Praktiga Consulting GmbH",
+        "address": "Südliche Münchner Str. 62, 82031 Grünwald, Germany",
+        "represented_by": "Represented by:",
+        "managing_directors": "Managing Directors: Dinçer Alkaç, Yavuz Gürcan",
+        "contact": "Contact",
+        "phone": "Phone: +49 1525 580 1021",
+        "email": "Email: info@praktiga.com",
+        "commercial_register": "Commercial Register Entry",
+        "registration": "Registration in the commercial register.",
+        "court": "Register Court: Amtsgericht München",
+        "register_number": "Register Number: HRB 289285",
+        "vat_id": "VAT ID",
+        "vat_id_number": "VAT Identification Number according to §27 a of the German VAT Act: TBA",
+        "content_responsibility": "Responsible for content according to § 55 Abs. 2 RStV",
+        "content_responsible_person": "Yavuz Gürcan, Südliche Münchner Str. 62, 82031 Grünwald"
     }
 }

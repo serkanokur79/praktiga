@@ -9,7 +9,9 @@
         "home": "Startseite",
         "services": "Dienste",
         "careers": "Karrieremöglichkeiten",
-        "contact": "Kontakt"
+        "contact": "Kontakt",
+        "imprint": "Impressum",
+        "privacy": "Datenschutz"
     },
     "welcome": "Willkommen in Praktiga",
     "hero": {
@@ -108,5 +110,49 @@
         "about": "Über uns",
         "services": "Dienstleistungen",
         "contactUs": "Kontaktieren Sie uns"
+    },
+    "privacy": {
+        "privacy_policy": "Datenschutzerklärung",
+        "data_protection_overview": "1. Datenschutz auf einen Blick",
+        "general_information": "Allgemeine Hinweise",
+        "general_information_text": "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie unsere Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.",
+        "data_collection": "Datenerfassung auf unserer Website",
+        "responsible_for_data_collection": "Wer ist verantwortlich für die Datenerfassung auf dieser Website?",
+        "data_processing": "Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber.Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.",
+        "how_we_collect_data": "*Wie erfassen wir Ihre Daten?*",
+        "data_communication": "Einerseits werden Ihre Daten erfasst, wenn Sie uns diese mitteilen. Dies können beispielsweise Daten sein, die Sie in ein Kontaktformular eingeben.",
+        "technical_data": "hre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen Hierbei kann es sich z.B. um Daten handeln, die Sie in ein Kontaktformular eingeben. Andere Daten werden automatisch beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z.B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie unsere Website betreten.",
+        "general_information_and_mandatory_information": "2. Allgemeine Hinweise und Pflichtinformationen",
+        "data_protection": "Datenschutz",
+        "operators_take_protection": "Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.",
+        "responsible_body": "Hinweis zur verantwortlichen Stelle",
+        "responsible_body_info": "Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist: \\n Praktiga Consulting GmbH, Southern Munich Street 62, 82031 Grünwald, Deutschland. \\n Verantwortlich: Yavuz Gürcan.",
+        "revocation_of_consent": "Widerruf Ihrer Einwilligung zur Datenverarbeitung",
+        "revocation_info": "Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.",
+        "right_to_lodge_complaint": "Beschwerderecht bei der zuständigen Aufsichtsbehörde",
+        "complaint_info": "Im Falle datenschutzrechtlicher Verstöße steht dem Betroffenen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Zuständige Aufsichtsbehörde in datenschutzrechtlichen Fragen ist der Landesdatenschutzbeauftragte des Bundeslandes, in dem unser Unternehmen seinen Sitz hat.",
+        "right_to_data_portability": "Recht auf Datenübertragbarkeit",
+        "portability_info": "Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.",
+        "ssl_tls_encryption": "SSL- bzw. TLS-Verschlüsselung",
+        "encryption_info": "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragungvertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von \"http://\" au \"https://\" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile."
+    },
+    "legal": {
+        "legal_notice": "Impressum",
+        "company_info": "Angaben gemäß § 5 TMG",
+        "company_name": "Praktiga Consulting GmbH",
+        "address": "Südliche Münchner Str. 62, 82031 Grünwald, Deutschland",
+        "represented_by": "Vertreten durch:",
+        "managing_directors": "Geschäftsführer: Dinçer Alkaç, Yavuz Gürcan",
+        "contact": "Kontakt",
+        "phone": "Telefon: +49 1525 580 1021",
+        "email": "E-Mail: info@praktiga.com",
+        "commercial_register": "Registereintrag",
+        "registration": "Eintragung im Handelsregister.",
+        "court": "Registergericht: Amtsgericht München",
+        "register_number": "Registernummer: HRB 289285",
+        "vat_id": "Umsatzsteuer-ID",
+        "vat_id_number": "Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: TBA",
+        "content_responsibility": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+        "content_responsible_person": "Yavuz Gürcan, Südliche Münchner Str. 62, 82031 Grünwald"
     }
 }
