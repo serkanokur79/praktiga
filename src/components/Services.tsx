@@ -82,9 +82,9 @@ const ServicesSection = () => {
         <section className="py-4 bg-gray-100/50 dark:bg-gray-900/50 mb-4">
             <div className="container mx-auto text-center">
                 <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-white">{t('services.title')}</h2>
-                <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
+                <div className="grid grids-col-1 md:grid-cols-2 md:gap-4 xl:grid-cols-3">
                     {servicesT.map((service, index) => (
-                        <div key={index} className="bg-gray-100/50 dark:bg-gray-800/50 p-2 md:p-6 rounded-lg shadow-sm hover:shadow-2xl  hover:border-2 transition-shadow duration-300 border-2 border-white hover:border-gray-300 dark:border-gray-950 hover:dark:border-gray-600 hover:dark:shadow-md hover:dark:shadow-gray-600">
+                        <div key={index} className="bg-gray-100/50 dark:bg-gray-800/50 p-3 md:p-6 rounded-lg shadow-sm hover:shadow-2xl  hover:border-2 transition-shadow duration-300 border-2 border-white hover:border-gray-300 dark:border-gray-950 hover:dark:border-gray-600 hover:dark:shadow-md hover:dark:shadow-gray-600">
                             <div className="flex items-center justify-center mb-4">
                                 {service.icon}
                                 <h3 className="text-md md:text-lg font-semibold my-auto mx-2 text-gray-800 dark:text-white">{service.title}</h3>   </div>

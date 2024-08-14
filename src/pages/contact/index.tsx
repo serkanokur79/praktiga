@@ -20,7 +20,7 @@ const CareerPage = () => {
                 <HeroContactSection />
                 <div className='flex flex-col xl:flex-row w-full  bg-transparent gap-4'>
                     <section className="py-4 mt-4 mb-2 bg-gray-200/25 dark:bg-gray-800/50 w-full">
-                        <div className="container w-full mx-auto text-center">
+                        <div className=" w-full mx-auto text-center">
                             <h2 className="text-xl xl:text-3xl font-bold mb-2 xl:mb-8 text-center text-gray-800 dark:text-white">
                                 {t('germanyHQ.title')}
                             </h2>
@@ -32,31 +32,31 @@ const CareerPage = () => {
                                 </div>
 
 
-                                <p className="text-gray-600 dark:text-gray-300">
+                                <p className="text-gray-600 dark:text-gray-300 mb-2">
                                     {t('germanyHQ.addressLine1')}
                                     <br />
                                     {t('germanyHQ.addressLine2')}
                                 </p>
 
                             </div>
-                            <Map lat="48.0482" lng="11.5236" />
                         </div>
+                        <Map lat="48.0482" lng="11.5236" />
                     </section>
                     <section className="py-4 mt-4 mb-2 bg-gray-50 dark:bg-gray-800/50 w-full ">
-                        <div className="container w-full mx-auto text-center">
+                        <div className="w-full mx-auto text-center">
                             <h2 className="text-xl xl:text-3xl font-bold mb-2 xl:mb-8 text-gray-800 dark:text-white">
                                 {t('turkeyHQ.title')}
                             </h2>
                             <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">
                                 {t('turkeyHQ.company')}
                             </h3>
-                            <p className="text-gray-600 dark:text-gray-300">
+                            <p className="text-gray-600 dark:text-gray-300 mb-2">
                                 {t('turkeyHQ.addressLine1')}
                                 <br />
                                 {t('turkeyHQ.addressLine2')}
                             </p>
-                            <Map lat="41.015137" lng="28.979530" />
                         </div>
+                        <Map lat="41.015137" lng="28.979530" />
                     </section>
                 </div>
             </div>
