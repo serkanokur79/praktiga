@@ -13,12 +13,12 @@ const CareerPage = () => {
     const { t } = useTranslation('common');
 
     return (
-        <div className="px-4 bg-transparent  w-full max-7-xl mx-auto min-h-[calc(100vh-21rem)]">
+        <div className=" bg-transparent  w-full max-7-xl mx-auto min-h-[calc(100vh-21rem)]">
             <div className=" mx-auto text-center">
 
                 <HeroContactSection />
-                <div className='flex flex-col xl:flex-row w-full gap-1'>
-                    <section className="py-8 bg-gray-100 dark:bg-gray-900 w-full">
+                <div className='flex flex-col xl:flex-row w-full  bg-transparent'>
+                    <section className="py-8 bg-transparent dark:bg-gray-900 w-full">
                         <div className="container w-full mx-auto text-center">
                             <h2 className="text-3xl font-bold mb-8 text-center text-gray-800 dark:text-white">
                                 {t('germanyHQ.title')}
@@ -41,7 +41,7 @@ const CareerPage = () => {
                             <Map lat="48.0482" lng="11.5236" />
                         </div>
                     </section>
-                    <section className="py-8 bg-gray-100 dark:bg-gray-900 w-full">
+                    <section className="py-8 bg-transparent dark:bg-gray-900 w-full ">
                         <div className="container w-full mx-auto text-center">
                             <h2 className="text-3xl font-bold mb-8 text-gray-800 dark:text-white">
                                 {t('turkeyHQ.title')}
