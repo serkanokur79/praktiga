@@ -37,7 +37,7 @@ export default function Home() {
       <ServicesSection />
       <WhyChoosePraktiga />
       <Partners />
-      <GetInTouch />
+      <GetInTouch type='primary' />
     </main>
 
 
