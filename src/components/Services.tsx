@@ -22,7 +22,7 @@ const ServicesSection = ({ servicesT }: { servicesT: Service[] }) => {
                 ))} */}
                 {servicesT.map((service, index) => (
                     <div key={index} className="bg-white p-3 md:p-6 rounded-lg shadow-sm hover:shadow-2xl  hover:border-2 transition-shadow duration-300 border-2 border-gray-200 hover:border-gray-300 dark:border-gray-950 hover:dark:border-gray-600 hover:dark:shadow-md hover:dark:shadow-gray-600 flex flex-row gap-6 text-primary hover:text-secondary hover:shadow-quaternary">
-                        <div className="flex items-center justify-center w-[5rem] md:w-[10rem]">{service.icon}</div>
+                        <div className="flex items-center justify-center w-[10rem]">{service.icon}</div>
                         <div className="flex items-start justify-left mb-4 flex-col flex-grow">
                             <h3 className="text-md md:text-lg font-semibold my-auto text-left ">{service.title}</h3>
                             <p className=" text-sm md:text-md justify-start text-justify">{service.description}</p> </div>

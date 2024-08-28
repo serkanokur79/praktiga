@@ -56,7 +56,7 @@ const ServicePage = () => {
 
             <TrustSection />
             <section className="py-4 bg-primary ">
-                <div className="container mx-auto text-center">
+                <div className=" mx-auto text-center">
                     <h2 className="text-3xl font-bold  text-white">{t('services.title')}</h2>
                     <ServicesSection servicesT={servicesT} />
 
