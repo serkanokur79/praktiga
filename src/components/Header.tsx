@@ -56,7 +56,7 @@ export default function Header() {
                 <div className="text-xl font-bold m-3">
                     <Link href="/"><span className='text-white'>Prakt</span><span className='text-gray-100/50'>iga</span></Link>
                 </div>
-                <div className='hidden md:flex md:flex-1 '>
+                <div className='hidden lg:flex md:flex-1 '>
                     <nav className='flex flex-row justify-end  flex-1 px-8'>
 
                         {headerItems.map((item, index) => (
@@ -83,7 +83,7 @@ export default function Header() {
                         {/* <DarkModeSelector /> */}
                     </div>
                 </div>
-                <div className='md:hidden flex flex-row gap-1 '>
+                <div className='lg:hidden flex flex-row gap-1 '>
                     {/* <select
                         onChange={(e) => handleLanguageChange(e.target.value)}
                         value={language}
@@ -108,7 +108,7 @@ export default function Header() {
                     <Sheet open={open} onOpenChange={setOpen}>
                         {/* This button will trigger open the mobile sheet menu */}
                         <SheetTrigger asChild>
-                            <Button size='icon' variant="default" className="md:hidden mx-2 bg-transparent">
+                            <Button size='icon' variant="default" className="lg:hidden mx-2 bg-transparent">
                                 <MenuIcon className='h-6 w-6' />
                             </Button>
                         </SheetTrigger>
