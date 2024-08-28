@@ -114,7 +114,7 @@ export default function Header() {
                         </SheetTrigger>
 
 
-                        <SheetContent side="right" className='w-1/3'>
+                        <SheetContent side="right" className='w-1/2'>
                             <div className="flex flex-col items-end">
                                 {headerItems.map((item, index) => (
                                     <Link key={index} href={item.link}>
