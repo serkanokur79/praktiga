@@ -28,7 +28,11 @@ export default function Header() {
         { name: `${t('headers.home')}`, link: '/' },
         { name: `${t('headers.services')}`, link: '/services' },
         { name: `${t('headers.contact')}`, link: '/contact' },
-        { name: `${t('headers.careers')}`, link: '/careers' }], [t]);
+        { name: `${t('headers.partners')}`, link: '/partners' },
+        { name: `${t('headers.careers')}`, link: 'https://praktiga.talentics.app/' },
+        { name: `${t('headers.privacy')}`, link: '/privacy-policy' },
+        { name: `${t('headers.imprint')}`, link: '/legal' },
+    ], [t]);
 
 
     useEffect(() => {
@@ -47,38 +51,27 @@ export default function Header() {
     };
 
     return (
-        <header className=" my-auto w-full flex  bg-gray-100 dark:bg-gray-800 min-h-[4rem]">
+        <header className=" my-auto w-full flex bg-primary min-h-[4rem]">
             <div className='container flex justify-between items-center gap-4'>
                 <div className="text-xl font-bold m-3">
-                    <Link href="/">Prakt<span className='text-blue-500'>iga</span></Link>
+                    <Link href="/"><span className='text-white'>Prakt</span><span className='text-gray-100/50'>iga</span></Link>
                 </div>
-                <div className='hidden md:flex md:flex-1'>
+                <div className='hidden md:flex md:flex-1 '>
                     <nav className='flex flex-row justify-end  flex-1 px-8'>
 
                         {headerItems.map((item, index) => (
                             <Link key={index} href={item.link}>
                                 <Button variant="link">
-                                    {item.name}
+                                    <span className='text-gray-100 hover:text-secondary'> {item.name}</span>
                                 </Button>
                             </Link>
                         ))}
                     </nav>
-                    {/* <button onClick={toggleDarkMode} className="p-2 bg-gray-200 dark:bg-gray-700 rounded">
-                {t('toggle_dark_mode')}
-            </button> */}
 
                     <div className='flex flex-row gap-2 px-2'>
-                        {/* <select
-                        onChange={(e) => handleLanguageChange(e.target.value)}
-                        value={language}
-                        className="p-2 rounded bg-transparent"
-                    >
-                        <option value="en" className='bg-gray-200 dark:gray-900 dark:text-gray-200'>English</option>
-                        <option value="de" className='bg-gray-200 dark:gray-900 dark:text-gray-200' >Deutsch</option>
-                        <option value="tr" className='bg-gray-200 dark:gray-900 dark:text-gray-200'>Türkçe</option>
-                    </select> */}
+
                         <Select onValueChange={handleLanguageChange} value={language} >
-                            <SelectTrigger className='justify-end text-center  w-[6rem] border-none bg-transparent'>
+                            <SelectTrigger className='justify-end text-center  w-[6rem] border-none bg-transparent text-white'>
                                 {language === 'en' ? 'English  ' : language === 'de' ? 'Deutsch  ' : 'Türkçe  '}
                             </SelectTrigger>
                             <SelectContent>
@@ -87,22 +80,22 @@ export default function Header() {
                                 <SelectItem value="tr">Türkçe</SelectItem>
                             </SelectContent>
                         </Select>
-                        <DarkModeSelector />
+                        {/* <DarkModeSelector /> */}
                     </div>
                 </div>
-                <div className='md:hidden flex flex-row gap-1'>
+                <div className='md:hidden flex flex-row gap-1 '>
                     {/* <select
-                    onChange={(e) => handleLanguageChange(e.target.value)}
-                    value={language}
-                    className="p-2 rounded bg-transparent"
-                >
-                    <option value="en" className='bg-gray-200 dark:gray-900 dark:text-gray-200'>English</option>
-                    <option value="de" className='bg-gray-200 dark:gray-900 dark:text-gray-200' >Deutsch</option>
-                    <option value="tr" className='bg-gray-200 dark:gray-900 dark:text-gray-200'>Türkçe</option>
-                </select> */}
+                        onChange={(e) => handleLanguageChange(e.target.value)}
+                        value={language}
+                        className="p-2 rounded bg-transparent"
+                    >
+                        <option value="en" className='bg-white text-black'>English</option>
+                        <option value="de" className='bg-white text-black' >Deutsch</option>
+                        <option value="tr" className='bg-white text-black'>Türkçe</option>
+                    </select> */}
 
                     <Select onValueChange={handleLanguageChange} value={language}>
-                        <SelectTrigger className='justify-end text-center  w-[6rem] border-none bg-transparent'>
+                        <SelectTrigger className='justify-end text-center  w-[6rem] border-none bg-transparent text-white'>
                             {language === 'en' ? 'English  ' : language === 'de' ? 'Deutsch  ' : 'Türkçe  '}
                         </SelectTrigger>
                         <SelectContent>
@@ -111,11 +104,11 @@ export default function Header() {
                             <SelectItem value="tr">Türkçe</SelectItem>
                         </SelectContent>
                     </Select>
-                    <DarkModeSelector />
+                    {/* <DarkModeSelector /> */}
                     <Sheet open={open} onOpenChange={setOpen}>
                         {/* This button will trigger open the mobile sheet menu */}
                         <SheetTrigger asChild>
-                            <Button size='icon' variant="outline" className="md:hidden mx-2 bg-transparent">
+                            <Button size='icon' variant="default" className="md:hidden mx-2 bg-transparent">
                                 <MenuIcon className='h-6 w-6' />
                             </Button>
                         </SheetTrigger>
@@ -137,7 +130,7 @@ export default function Header() {
                                         </Button></Link>
                                 ))}
 
-                                <DarkModeSelector />
+                                {/* <DarkModeSelector /> */}
                             </div>
 
                         </SheetContent>

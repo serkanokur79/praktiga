@@ -12,6 +12,7 @@
         "careers": "Careers",
         "contact": "Contact",
         "imprint": "Imprint",
+        "partners": "Partners",
         "privacy": "Privacy Policy"
     },
     "hero": {
@@ -21,6 +22,7 @@
     },
     "services": {
         "title": "Our Services",
+        "learn-more": "Learn more",
         "service1": "Advisory",
         "description1": "We guide you through your IAM journey, helping you develop a robust strategy and make informed decisions.",
         "service2": "Consulting",
@@ -38,7 +40,7 @@
         "hero": {
             "title": "Be praktigal!",
             "description": " Join us and shape the future of IAM with a collaborative dynamic team of experts!",
-            "button_text": "Job openings"
+            "button_text": "Careers at Praktiga"
         },
         "topTeam": {
             "title": "Top Team, Smart Solutions",
@@ -110,7 +112,9 @@
         "linksTitle": "Quick Links",
         "about": "About Us",
         "services": "Services",
-        "contactUs": "Contact Us"
+        "contactUs": "Contact Us",
+        "links": "LINKS",
+        "legal": "LEGAL"
     },
     "privacy": {
         "privacy_policy": "Privacy Policy",
@@ -160,5 +164,27 @@
         "title": "Get in Touch",
         "description": "Secure your business with Praktiga. Contact us today to learn how we can support your IAM needs and help you focus on your core business.",
         "contactButton": "Contact Us"
+    },
+    "cookieConsent": {
+        "title": "Your Cookie Preferences",
+        "paragraph1": "We use cookies only to improve your experience on our site",
+        "paragraph2": "By clicking “Accept”, you agree to the storing of cookies on your device for functional, analytics, and advertising purposes.",
+        "accept": "Accept",
+        "decline": "Decline"
+    },
+    "partners": {
+        "title": "Our Partners",
+        "description": "We are proud to work with some of the most innovative companies in the field of IAM.",
+        "learn-more": "Learn more",
+        "Omada": {
+            "description": "Omada is a market-leading provider of IT security solutions and services for Identity Management and Access Governance.",
+            "content1": "Omada enables organizations to achieve sustainable compliance, reduce risk exposure, and maximize automation. Omada’s solutions efficiently manage and control users’ access rights to applications and data - reducing IT costs and resource intensive administration processes.",
+            "content2": "Established in 2000, Omada has operations globally, delivering solutions directly and via a network of skilled partners and system integrators. Omada is recognized as a trusted advisor and has provided advanced identity management solutions for organizations with some of the largest and most complex IT infrastructures in the world."
+        },
+        "EmpowerID": {
+            "description": "EmpowerID is the award-winning, All-In-One Identity Management and Cloud Security Suite",
+            "content1": "With over two decades of experience in the industry, EmpowerID offers a highly scalable and customizable infrastructure designed to meet the complex needs of organizations across various sectors. The platform enables enterprises to manage millions of identities globally, providing essential services such as user provisioning, single sign-on (SSO), access governance, and robust audit controls.",
+            "content2": "The company is committed to a Zero Trust security model, focusing on secure access to both cloud and on-premise applications. EmpowerID's solutions address the evolving challenges of cybersecurity, enabling organizations to manage privileged accounts and streamline security processes effectively. With notable clients like Siemens, Airbus, and Deloitte, EmpowerID has established itself as a trusted partner in identity management, helping businesses reduce costs and improve their security posture in today’s complex digital landscape."
+        }
     }
 }

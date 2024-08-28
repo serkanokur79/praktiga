@@ -5,12 +5,16 @@ const TrustSection = () => {
     const { t } = useTranslation('common');
 
     return (
-        <section className="py-6 bg-transparent">
-            <h2 className="text-3xl font-bold mb-8 text-gray-800 dark:text-white">{t('trust.title')}</h2>
-            <div className='flex flex-col gap-4 w-3/4 xl:w-2/3 mx-auto max-w-3xl'>
-                <p className="text-sm md:text-lg text-center">{t('trust.content')}</p>
-                <p className="text-sm md:text-lg text-center">{t('trust.content2')}</p>
-                <p className="text-sm md:text-lg text-center">{t('trust.content3')}</p></div>
+        <section className="py-4 bg-transparent">
+            <div className="container mx-auto text-center">
+                <h2 className="text-3xl font-bold  text-primary">{t('trust.title')}</h2>
+
+                <div className='flex flex-col gap-4 my-4 max-w-[85%] leading-normal text-muted-foreground sm:text-base sm:leading-7 mx-auto'>
+                    <p>{t('trust.content')}</p>
+                    <p>{t('trust.content2')}</p>
+                    <p>{t('trust.content3')}</p>
+                </div>
+            </div>
         </section>
     );
 };

@@ -18,21 +18,20 @@ const CareerPage = () => {
             <div className=" mx-auto text-center">
 
                 <HeroContactSection />
-                <div className='flex flex-col xl:flex-row w-full  bg-transparent gap-4'>
-                    <section className="py-4 mt-4 mb-2 bg-gray-200/25 dark:bg-gray-800/50 w-full">
+                <div className='flex flex-col xl:flex-row w-full  bg-transparent  gap-4'>
+                    <section className="py-4 mt-4 mb-2 bg-gray-200/25  w-full">
                         <div className=" w-full mx-auto text-center">
-                            <h2 className="text-xl xl:text-3xl font-bold mb-2 xl:mb-8 text-center text-gray-800 dark:text-white">
+                            <h2 className="text-xl xl:text-3xl font-bold mb-2 xl:mb-8 text-center ">
                                 {t('germanyHQ.title')}
                             </h2>
                             <div className="flex flex-col justify-center items-center">
-                                <div className="md:w-1/2 mb-0 md:pr-8 text-center">
-                                    <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">
+                                <div className="md:w-2/3 mb-0 md:pr-8 text-center ">
+                                    <h3 className="text-xl font-semibold mb-4 w-full text-center">
                                         {t('germanyHQ.company')}
                                     </h3>
                                 </div>
 
-
-                                <p className="text-gray-600 dark:text-gray-300 mb-2">
+                                <p className=" mb-2">
                                     {t('germanyHQ.addressLine1')}
                                     <br />
                                     {t('germanyHQ.addressLine2')}
@@ -42,12 +41,12 @@ const CareerPage = () => {
                             <Map lat="48.0482" lng="11.5236" />
                         </div>
                     </section>
-                    <section className="py-4 mt-4 mb-2 bg-gray-50 dark:bg-gray-800/50 w-full ">
+                    <section className="py-4 mt-4 mb-2 bg-gray-200/25 text-gray-800 w-full ">
                         <div className="w-full mx-auto text-center">
-                            <h2 className="text-xl xl:text-3xl font-bold mb-2 xl:mb-8 text-gray-800 dark:text-white">
+                            <h2 className="text-xl xl:text-3xl font-bold mb-2 xl:mb-8">
                                 {t('turkeyHQ.title')}
                             </h2>
-                            <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white">
+                            <h3 className="text-xl font-semibold mb-4">
                                 {t('turkeyHQ.company')}
                             </h3>
                             <p className="text-gray-600 dark:text-gray-300 mb-2">

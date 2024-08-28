@@ -10,7 +10,8 @@
         "services": "Hizmetlerimiz",
         "careers": "Kariyer",
         "contact": "İletişim",
-        "imprint": "Legal",
+        "imprint": "Yasal Uyarı",
+        "partners": "İş Ortaklarımız",
         "privacy": "Gizlilik Politikası"
     },
     "welcome": "Praktiga'ya Hoşgeldiniz",
@@ -21,6 +22,7 @@
     },
     "services": {
         "title": "Hizmetlerimiz",
+        "learn-more": "Daha fazla bilgi",
         "service1": "Tavsiye",
         "description1": "IAM yolculuğunuzda size rehberlik eder, güçlü bir strateji geliştirmenize ve bilgilendirilmiş kararlar vermenize yardımcı oluruz. ",
         "service2": "Danışmanlık",
@@ -109,7 +111,9 @@
         "linksTitle": "Hızlı Bağlantılar",
         "about": "Hakkımızda",
         "services": "Hizmetler",
-        "contactUs": "Bize Ulaşın"
+        "contactUs": "Bize Ulaşın",
+        "links": "Hızlı Bağlantılar",
+        "legal": "Yasal"
     },
     "privacy": {
         "privacy_policy": "Gizlilik Politikası",
@@ -159,5 +163,27 @@
         "title": "Bizimle İletişime Geçin",
         "description": "Praktiga ile işinizi güvence altına alın. IAM ihtiyaçlarınızı nasıl destekleyebileceğimizi ve sizi asıl işinize odaklanmanızı sağlayabileceğimizi öğrenmek için bugün bizimle iletişime geçin.",
         "contactButton": "Bize Ulaşın"
+    },
+    "cookieConsent": {
+        "title": "Tarayıcınızda tanımlama bilgisi (cookie) kullanımımız",
+        "paragraph1": "Praktiga web sitesini daha iyi deneyim sağlamak için sadece tanımlama bilgilerini kullanıyoruz. Bu tanımlama bilgileri size en iyi web deneyimini sağlamak için kullanılır.",
+        "paragraph2": "Devam etmek için \"Kabul Et\" düğmesine tıklayarak, işlevsel, analitik ve reklam amaçları için cihazınızda tanımlama bilgilerinin saklanmasını kabul etmiş olursunuz.",
+        "accept": "Kabul Et",
+        "decline": "Reddet"
+    },
+    "partners": {
+        "title": "Partnerlerimiz",
+        "description": "IAM alanında en teknolojik ve inovatif şirketlerle birlikte çalışmaktan gurur duyuyoruz.",
+        "learn-more": "Daha Fazla Bilgi",
+        "Omada": {
+            "description": "Omada, Kimlik ve Erişim Yönetimi ve Güvenlik Çözümleri sunan ve lider bir şirkettir.",
+            "content1": "Omada, kuruluşlara dayanıklı uyumluluk sağlamak, risk tehlikesi azaltmak ve otomasyon geliştirmek için kullanıcılara uygun erişim sağlamakla ilgilidir. Omada'nın çözümleri, uygulamalara ve verilere kullanıcı erişimini kontrol etmek ve IT maliyetlerini azaltmak için kaynak tasarrufu sağlar.",
+            "content2": "2000 yılında kurulduğu ve dünya çapında işletmeler için güvenilir bir aday olduğu için, Omada genel ve karmaşık BT altyapılarında kullanılan gelişmiş Kimlik Yönetimi çözümlerini sunmaktadır. Dünya çapında işletmelerle işbirliği yaparak doğrudan veya yetkin ticari ortaklar ve sistem tümleştiricileri aracılığıyla çözümleri sunarlar."
+        },
+        "EmpowerID": {
+            "description": "EmpowerID, sektörün lideri, tüm üçüncü parti kimlik ve bulut güvenliği süitidir.",
+            "content1": "İş dünyasında daha fazla deneyim ve özelleştirilmiş bir altyapı sunarak iki yüz dönümünün üstünde olan bir şirkettir. Platform, dünyanın en çok sektörlerde karmaşık gereksinimlere karşı dayanıklı bir şekilde büyük ölçekli kimlik yönetimi hizmetleri sağlar. Kuruluşlar, genellikle kullanıcı sağlama, tek oturum açma (SSO), erişim kontrolü ve güçlü denetimlerden oluşan temel hizmetleri sunarak dünyanın en büyük kimliklerini yönetebilir.",
+            "content2": "EmpowerID, sıfır güven modelini temel alır ve bulut ve şirket içi uygulamalara güvenli erişim sağlamakla odaklanır. Bu model, cyber güvenlik alanındaki sürekli değişiklikleri etkili bir şekilde yönetmek için güçlü çözümler sunar. Şimdiye kadar Siemens, Airbus ve Deloitte gibi ilginç müşterileri olan EmpowerID, sektörün lideri kimlik yönetimi partneri olarak, kuruluşların güvenliği ve güvenliğini artırmak için kimlik yönetimi hizmetlerini buluta kadar destekler."
+        }
     }
 }

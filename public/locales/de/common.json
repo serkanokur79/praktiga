@@ -11,6 +11,7 @@
         "careers": "Karrieremöglichkeiten",
         "contact": "Kontakt",
         "imprint": "Impressum",
+        "partners": "Partner",
         "privacy": "Datenschutz"
     },
     "welcome": "Willkommen in Praktiga",
@@ -21,6 +22,7 @@
     },
     "services": {
         "title": "Unsere Dienstleistungen",
+        "learn-more": "Mehr erfahren",
         "service1": "Beratung",
         "description1": "Wir helfen Ihnen, Ihre IAM-Übersicht zu helfen und helfen Ihnen, eine robuste Strategie zu entwickeln und fundierte Entscheidungen zu treffen.",
         "service2": "Consulting",
@@ -38,7 +40,7 @@
         "hero": {
             "title": "Sei praktigal!",
             "description": "Schließe dich uns an und gestalte die Zukunft des IAM mit einem kollaborativen, dynamischen Expertenteam!",
-            "button_text": "Stellenangebote"
+            "button_text": "Karrieremöglichkeiten bei Praktiga"
         },
         "topTeam": {
             "title": "Top-Team, Smarte Lösungen",
@@ -109,7 +111,9 @@
         "linksTitle": "Schnellzugriffe",
         "about": "Über uns",
         "services": "Dienstleistungen",
-        "contactUs": "Kontaktieren Sie uns"
+        "contactUs": "Kontaktieren Sie uns",
+        "links": "Links",
+        "legal": "Rechtliches"
     },
     "privacy": {
         "privacy_policy": "Datenschutzerklärung",
@@ -159,5 +163,27 @@
         "title": "Kontaktieren Sie uns",
         "description": "Sichern Sie Ihr Unternehmen mit Praktiga. Kontaktieren Sie uns noch heute, um zu erfahren, wie wir Ihre IAM-Bedürfnisse unterstützen und Ihnen den Fokus auf Ihr Kerngeschäft ermöglichen können.",
         "contactButton": "Kontaktieren Sie uns"
+    },
+    "cookieConsent": {
+        "title": "Ihre Cookie-Einstellungen",
+        "paragraph1": "Wir verwenden Cookies nur, um Ihre Erfahrung auf unserer Website zu verbessern",
+        "paragraph2": "Indem Sie auf „Zustimmen“ klicken, stimmen Sie der Speicherung von Cookies auf Ihrem Gerät für funktionale, Analyse- und Werbezwecke zu.",
+        "accept": "Zustimmen",
+        "decline": "Ablehnen"
+    },
+    "partners": {
+        "title": "Unsere Partner",
+        "description": "Wir freuen uns, mit einigen der innovativsten Unternehmen im Bereich der IAM zusammenzuarbeiten.",
+        "learn-more": "Mehr erfahren",
+        "Omada": {
+            "description": "Omada ist ein führender Anbieter von IT-Sicherheitslösungen und -dienstleistungen für Identity Management und Access Governance.",
+            "content1": "Mit Omada können Organisationen eine nachhaltige Konformität erreichen, Risiken reduzieren und die Automatisierung maximieren. Die Omada-Lösungen optimieren effizient die Zugriffsrechte von Benutzern auf Anwendungen und Daten, indem sie Kosten und ressourcenintensive Verwaltungsprozesse minimieren.",
+            "content2": "Gegründet im Jahr 2000 hat Omada weltweit operative Niederlassungen und bietet sowohl direkt als auch über ein Netzwerk von qualifizierten Partnern und Systemintegratoren Lösungen an. Omada genießt das Ansehen eines vertrauenswürdigen Beraters und hat für Organisationen mit einigen der größten und komplexesten IT-Infrastrukturen der Welt erfolgreiche Identity Management-Lösungen angeboten."
+        },
+        "EmpowerID": {
+            "description": "EmpowerID ist das erfolgreichste Identity Management und Cloud Security Suite",
+            "content1": "Mit über zwei Jahrzehnten Erfahrung im Bereich des Identitätsmanagements und Cloud Security bietet EmpowerID eine skalierbare und anpassbare Infrastruktur, die die spezifischen Anforderungen von Organisationen aus verschiedenen Branchen erfüllt. Das Angebot ermöglicht Unternehmen, Millionen von Identitäten weltweit zu verwalten und bietet wichtige Dienstleistungen wie Benutzerbereitstellung, einmaliges Anmelden (SSO), Zugriffssteuerung und robuste Überwachungsfunktionen. ",
+            "content2": "Das Unternehmen setzt ein auf das Zero-Trust-Modell, das sich auf die sichere Zugriff auf sowohl Cloud- als auch lokale Anwendungen konzentriert. Die Lösungen von EmpowerID sind auf die sich verändernden Herausforderungen der Cybersecurity ausgerichtet, ermöglichen Organisationen, privilegierte Konten zu verwalten und effiziente Sicherheitsprozesse zu optimieren. Mit beachtlichen Kunden wie Siemens, Airbus und Deloitte hat EmpowerID sich als vertrauenswürdiger Partner im Bereich Identity Management etabliert, indem es Unternehmen dabei hilft, Kosten zu reduzieren und ihre Sicherheitsstandards zu verbessern, in dem komplexen digitalen Umfeld, in dem wir leben."
+        }
     }
 }

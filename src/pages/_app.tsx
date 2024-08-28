@@ -7,6 +7,7 @@ import '../../i18n';
 import Footer from "@/components/Footer";
 import { useEffect, useState } from "react";
 import Header from "@/components/Header";
+
 function App({ Component, pageProps }: AppProps) {
   const [isClient, setIsClient] = useState(false);
 
@@ -22,7 +23,7 @@ function App({ Component, pageProps }: AppProps) {
   >
     {isClient && <div className="h-[calc(100dvh)] flex flex-col" >
       <Header />
-      <div className="md:container flex-grow" >
+      <div className="md:container flex-grow relative" >
         <Component {...pageProps} />
       </div>
       <Footer /></div>}

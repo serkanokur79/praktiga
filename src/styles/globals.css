@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
@@ -57,7 +58,66 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+} */
+
+
+
+@layer base {
+ :root {
+  --primary: 207 100% 61%;
+  --secondary: 21 88% 55%;
+  --tertiary: 209 32% 65%;
+  --quaternary: 209 100% 27%;
+  --main-blue: 207 100% 61%;
+  --main-orange: 21 88% 55%;
+  --secondary-blue: 209 32% 65%;
+  --secondary-navy: 209 100% 27%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 207 100% 61%;
+    --accent-foreground: 0 0% 100%;
+    --card: 0 0% 100%;
+    --card-foreground: 207 100% 61%;
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: 224.3 76.3% 48%;
+  --chart-1: 220 70% 50%;
+  --chart-2: 160 60% 45%;
+  --chart-3: 30 80% 55%;
+  --chart-4: 280 65% 60%;
+  --chart-5: 340 75% 55%;
+   --popover: 21 88% 55%;
+    --popover-foreground: 0 0% 100%;
 }
+  .dark {
+  --primary: 207 100% 61%;
+  --secondary: 21 88% 55%;
+  --tertiary: 209 32% 65%;
+  --quaternary: 209 100% 27%;
+  --main-blue: 207 100% 61%;
+  --main-orange: 21 88% 55%;
+  --secondary-blue: 209 32% 65%;
+  --secondary-navy: 209 100% 27%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 207 100% 61%;
+    --accent-foreground: 0 0% 100%;
+    --card: 0 0% 100%;
+    --card-foreground: 207 100% 61%;
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: 224.3 76.3% 48%;
+  --chart-1: 220 70% 50%;
+  --chart-2: 160 60% 45%;
+  --chart-3: 30 80% 55%;
+  --chart-4: 280 65% 60%;
+  --chart-5: 340 75% 55%;
+   --popover: 21 88% 55%;
+    --popover-foreground: 0 0% 100%;
+  }
+}
+
+
 
 @layer base {
   * {
@@ -65,6 +125,7 @@
   }
   body {
     @apply bg-background text-foreground;
+      font-family: 'Poppins', sans-serif;
   }
 }
 
@@ -145,3 +206,19 @@
 	-o-transition: -o-stroke-dashoffset 0.3s ease-out, -o-stroke-opacity 0.3s ease-in;
 	transition: stroke-dashoffset 0.3s ease-out, stroke-opacity 0.3s ease-in;
 } 
+
+/* Apply colors */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--quaternary-color);
+}
+
+/* button {
+  background-color: var(--tertiary-color);
+  border: 1px solid var(--quaternary-color);
+  color: var(--quaternary-color);
+} */
+

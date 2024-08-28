@@ -11,6 +11,7 @@ import HeroSection from "@/components/Hero";
 import ServicesSection from "@/components/HomeServices";
 import WhyChoosePraktiga from "@/components/Why";
 import GetInTouch from "@/components/GetInTouch";
+import Partners from "@/components/Partners";
 
 
 export default function Home() {
@@ -35,6 +36,7 @@ export default function Home() {
       <HeroSection />
       <ServicesSection />
       <WhyChoosePraktiga />
+      <Partners />
       <GetInTouch />
     </main>
 

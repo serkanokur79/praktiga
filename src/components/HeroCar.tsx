@@ -25,7 +25,7 @@ const HeroCareerSection = () => {
                     {t('career.hero.description')}
                 </p>
 
-                <Button className=" mx-auto" onClick={() => window.open('https://praktiga.talentics.app/#openings', '_blank')}>
+                <Button variant="hero" className=" mx-auto" onClick={() => window.open('https://praktiga.talentics.app/#openings', '_blank')}>
                     {t('career.hero.button_text')}
                 </Button>
             </div>
