@@ -19,7 +19,7 @@ const HeroCareerSection = () => {
 
             <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
 
-            <div className="relative z-20 flex flex-col  h-1/2 px-4 text-center text-white dark:text-gray-400 mt-[13rem] md:mt-[16rem]">
+            <div className="relative z-20 flex flex-col  h-1/2 px-4 text-center text-white  mt-[13rem] md:mt-[16rem]">
                 <h1 className="text-xl md:text-4xl font-bold mx-auto my-2 xl:mb-4"> {t('career.hero.title')}</h1>
                 <p className="text-sm md:text-lg mb-3 ">
                     {t('career.hero.description')}

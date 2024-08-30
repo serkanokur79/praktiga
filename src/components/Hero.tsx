@@ -20,8 +20,8 @@ const HeroSection = () => {
 
             <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
 
-            <div className="relative z-20 flex flex-col items-center justify-center h-full px-4 text-center text-white dark:text-gray-400 ">
-                <h1 className="text-4xl font-bold mb-4 md:text-6xl dark:shadow-black box-shadow-red-400 text-primary"> {t('welcome')}</h1>
+            <div className="relative z-20 flex flex-col items-center justify-center h-full px-4 text-center text-white ">
+                <h1 className="text-4xl font-bold mb-4 md:text-6xl  box-shadow-red-400 text-primary"> {t('welcome')}</h1>
                 <p className="text-lg mb-8 md:text-xl">{t('hero.title')}</p>
                 <p className="text-lg mb-8 md:text-xl">{t('hero.description')}</p>
                 <Link href="/contact">

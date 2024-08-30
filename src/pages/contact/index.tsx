@@ -49,7 +49,7 @@ const CareerPage = () => {
                             <h3 className="text-xl font-semibold mb-4">
                                 {t('turkeyHQ.company')}
                             </h3>
-                            <p className="text-gray-600 dark:text-gray-300 mb-2">
+                            <p className="text-gray-600 mb-2">
                                 {t('turkeyHQ.addressLine1')}
                                 <br />
                                 {t('turkeyHQ.addressLine2')}

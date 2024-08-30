@@ -14,6 +14,7 @@ import { VscVmConnect } from 'react-icons/vsc';
 import { TbPlugConnected } from 'react-icons/tb';
 import { FaHeadset } from 'react-icons/fa';
 import GetInTouch from '@/components/GetInTouch';
+import ServicesSection2 from '@/components/Services2';
 
 const ServicePage = () => {
     const { i18n } = useTranslation();
@@ -62,6 +63,7 @@ const ServicePage = () => {
 
                 </div>
             </section>
+            {/* <ServicesSection2 servicesT={servicesT} /> */}
             <GetInTouch type="white" />
 
         </div >
