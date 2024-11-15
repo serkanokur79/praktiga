@@ -9,22 +9,22 @@ const WhyChoosePraktiga: FC = () => {
         {
             title: (t('whyChoose.expertConsultants.title')),
             description: t('whyChoose.expertConsultants.description'),
-            image: '/images/experts.png',
+            image: '/images/new/WhyChoosePraktiga_expertconsultants.png',
         },
         {
             title: (t('whyChoose.tailoredSolutions.title')),
             description: t('whyChoose.tailoredSolutions.description'),
-            image: '/images/TailorTT.png',
+            image: '/images/new/WhyChoosePraktiga_tailoredsolutions.png',
         },
         {
             title: (t('whyChoose.provenTrackRecord.title')),
             description: t('whyChoose.provenTrackRecord.description'),
-            image: '/images/proven.png',
+            image: '/images/new/WhyChoosePraktiga_proventrackrecord.png',
         },
         {
             title: (t('whyChoose.comprehensiveSupport.title')),
             description: t('whyChoose.comprehensiveSupport.description'),
-            image: '/images/Ex.png',
+            image: '/images/new/WhyChoosePraktiga_support.png',
         },
     ]
 

@@ -12,6 +12,7 @@ import { Popover, PopoverContent, PopoverTrigger } from './ui/popover';
 import { TooltipProvider } from '@radix-ui/react-tooltip';
 import { Tooltip, TooltipContent, TooltipTrigger } from './ui/tooltip';
 import HomeServicesSectionCarrousel from './HomeServicesCarrousel';
+import Image from 'next/image';
 
 
 const HomeServicesSection = () => {
@@ -22,32 +23,33 @@ const HomeServicesSection = () => {
         {
             title: (t('services.service1')),
             description: t('services.description1'),
-            icon: <SiTripadvisor className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16  group-hover:text-secondary " />,
+            // icon: <SiTripadvisor className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16  group-hover:text-secondary " />,
+            icon: <Image src="/images/new/Praktiga_WebIcons_advisory.png" alt="Advisory logo" className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16  group-hover:text-secondary " width="200" height="200" />,
         },
         {
             title: (t('services.service2')),
             description: t('services.description2'),
-            icon: <GrUserExpert className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16    group-hover:text-secondary " />,
+            icon: <Image src="/images/new/Praktiga_WebIcons_consulting.png" alt="Consulting logo" className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16  group-hover:text-secondary " width="200" height="200" />,
         },
         {
             title: (t('services.service3')),
             description: t('services.description3'),
-            icon: <VscVmConnect className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16    group-hover:text-secondary " />,
+            icon: <Image src="/images/new/Praktiga_WebIcons_implementation.png" alt="implemantation logo" className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16  group-hover:text-secondary " width="200" height="200" />,
         },
         {
             title: (t('services.service4')),
             description: t('services.description4'),
-            icon: <GrTestDesktop className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16    group-hover:text-secondary " />,
+            icon: <Image src="/images/new/Praktiga_WebIcons_testing.png" alt="testing logo" className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16  group-hover:text-secondary " width="200" height="200" />,
         },
         {
             title: (t('services.service5')),
             description: t('services.description5'),
-            icon: <TbPlugConnected className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16    group-hover:text-secondary " />,
+            icon: <Image src="/images/new/Praktiga_WebIcons_integration.png" alt="integration logo" className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16  group-hover:text-secondary " width="200" height="200" />,
         },
         {
             title: (t('services.service6')),
             description: t('services.description6'),
-            icon: < FaHeadset className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16   group-hover:text-secondary " />,
+            icon: <Image src="/images/new/Praktiga_WebIcons_operation.png" alt="operation logo" className="w-8 h-8 md:w-12 md:h-12 xl:w-16 xl:h-16  group-hover:text-secondary " width="200" height="200" />,
         },
     ]
 
