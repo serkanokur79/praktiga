@@ -4,7 +4,7 @@ import { appWithTranslation } from 'next-i18next'
 import { ThemeProvider } from "@/components/themeProvider";
 import '../../i18n';
 
-import Footer from "@/components/Footer";
+import Footer from "@/components/Footer2";
 import { useEffect, useState } from "react";
 import Header from "@/components/Header";
 

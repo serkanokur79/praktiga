@@ -1,9 +1,7 @@
-
 import { FC, useMemo } from 'react';
 import { useTranslation } from 'next-i18next';
-import { FaFacebook, FaTwitter, FaLinkedin, FaWhatsapp, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import Link from 'next/link';
-// import { headerItems } from './Header';
 import { Button } from './ui/button';
 import Image from 'next/image';
 import CookieConsent from './CookiePerm';
@@ -15,16 +13,15 @@ const Footer: FC = () => {
         { name: `${t('headers.services')}`, link: '/services' },
         { name: `${t('headers.contact')}`, link: '/contact' },
         { name: `${t('headers.partners')}`, link: '/partners' },
+        { name: `${t('headers.about')}`, link: '/about' },
         { name: `${t('headers.careers')}`, link: '/careers' },
-        // { name: `${t('headers.privacy')}`, link: '/privacy-policy' },
-        // { name: `${t('headers.imprint')}`, link: '/legal' },
     ]
         , [t]);
 
     const legalItems = useMemo(() => [
-
         { name: `${t('headers.privacy')}`, link: '/privacy-policy' },
         { name: `${t('headers.imprint')}`, link: '/legal' },
+        { name: `${t('headers.security')}`, link: '/security-policy' }
     ]
         , [t]);
 

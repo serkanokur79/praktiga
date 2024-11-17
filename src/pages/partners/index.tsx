@@ -53,17 +53,14 @@ const PartnersPage = () => {
                 <PartnerCard partner={{ title: "Partner 1", description: `${t('partners.EmpowerID.description')}`, content1: `${t('partners.EmpowerID.content1')}`, content2: `${t('partners.EmpowerID.content2')}`, image: "/images/empower2.png", link: "https://www.empowerid.com/" }} />
             </div>
 
-            {/* <div className="py-4 ">
-                <div className=" mx-auto text-center">
-                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
-                        {careerContent.map((item) => (
-                            <p key={item.id}>{item.title} </p>
-                        )
-                        )}
-
-                    </div>
+            <div className="mt-12 mx-auto">
+                <div className="w-full ">
+                    <h2 className="text-3xl font-bold text-center text-primary">{t('partners.memberships.title')}</h2>
+                    <p className="my-4 max-w-[85%] leading-normal text-muted-foreground sm:text-base sm:leading-7 mx-auto">{t('partners.memberships.description')}</p>
+                    <PartnerCard partner={{ title: "Security Network Munich", description: `${t('partners.SNM.description')}`, content1: `${t('partners.SNM.content')}`, image: "/images/netzwerk_en_logo.jpeg", link: "https://security-network-munich.org/" }} />
                 </div>
-            </div> */}
+            </div>
+
         </div>
 
 

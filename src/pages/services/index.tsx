@@ -2,11 +2,8 @@
 
 import { useTranslation } from 'next-i18next';
 import '../../../i18n'
-
-
 import ServicesSection from "@/components/Services";
 import HeroSection from '@/components/Hero';
-import TrustSection from '@/components/Trust';
 import HomeServicesSectionCarrousel from '@/components/HomeServicesCarrousel';
 import { SiTripadvisor } from 'react-icons/si';
 import { GrTestDesktop, GrUserExpert } from 'react-icons/gr';
@@ -14,7 +11,6 @@ import { VscVmConnect } from 'react-icons/vsc';
 import { TbPlugConnected } from 'react-icons/tb';
 import { FaHeadset } from 'react-icons/fa';
 import GetInTouch from '@/components/GetInTouch';
-import ServicesSection2 from '@/components/Services2';
 
 const ServicePage = () => {
     const { i18n } = useTranslation();
@@ -54,18 +50,13 @@ const ServicePage = () => {
     return (
         <div className="w-full max-7-xl mx-auto ">
             < HeroSection />
-
-            <TrustSection />
-            <section className="py-4 bg-primary ">
+            <section className="py-4 bg-primary text-white ">
                 <div className=" mx-auto text-center">
-                    <h2 className="text-3xl font-bold  text-white">{t('services.title')}</h2>
+                    <h2 className="text-3xl font-bold ">{t('services.title')}</h2>
                     <ServicesSection servicesT={servicesT} />
-
                 </div>
             </section>
-            {/* <ServicesSection2 servicesT={servicesT} /> */}
-            <GetInTouch type="white" />
-
+            <GetInTouch type='white' />
         </div >
 
     );

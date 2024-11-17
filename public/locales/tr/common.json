@@ -12,7 +12,9 @@
         "contact": "İletişim",
         "imprint": "Yasal Uyarı",
         "partners": "İş Ortaklarımız",
-        "privacy": "Gizlilik Politikası"
+        "about": "Hakkımızda",
+        "privacy": "Gizlilik Politikası",
+        "security": "Güvenlik Politikası"
     },
     "welcome": "Praktiga'ya Hoşgeldiniz",
     "hero": {
@@ -35,6 +37,10 @@
         "description5": "Ihtiyacınız olan özelliğe sahip entegrasyonlarınızı kurmak için gerekli bir stratejiden yararlanabilirsiniz.",
         "service6": "Operasyon ve Destek",
         "description6": "Ihtiyacınız olan özelliğe sahip operasyon ve destek hizmetlerimizi özel olarak bize gönderin."
+    },
+    "about": {
+        "title": "Hakkımızda",
+        "certified": "Sertifikalarımız"
     },
     "career": {
         "hero": {
@@ -83,7 +89,7 @@
         "description": "Uzmanlarımız size yardımcı olmaya hazır! Aşağıdaki kanallardan herhangi biri aracılığıyla bize ulaşın:"
     },
     "trust": {
-        "trust_competence": "Güven & Yetkinlik",
+        "title": "Güven & Yetkinlik",
         "content": "Praktiga Danışmanlık, en iyi IAM (Kimlik ve Erişim Yönetimi) uzmanlarının bir araya geldiği yerdir. Finans, otomotiv, sağlık ve hükümet gibi sektörlerde fark yaratan IAM çözümlerinde derin deneyime sahip bir ekibiz.",
         "content2": "Kuruluşların karşılaştığı zorlukları anlıyoruz çünkü müşterilerimizin şu anda bulunduğu konumda biz de bulunduk - şirketlerinin altyapısının neredeyse her yönüne dokunan bir ürünü entegre etmek ve sürdürmekten sorumlu. Bu kritik noktada, güvenebileceğiniz bir ortağı bulmak çok önemlidir.",
         "content3": "Praktiga Danışmanlık, Praktiga, Almanya ve Türkiye'de dinamik ekipleri ile küresel bir güçtür. Misyonumuz basit: Siz işinize odaklanın, biz IAM yolculuğunuzla ilgilenelim ve bunun güvenli, uyumlu ve verimli olmasını sağlayalım. Praktiga Danışmanlık'a hoş geldiniz – IAM zorluklarını aşmada ortağınız."
@@ -173,17 +179,53 @@
     },
     "partners": {
         "title": "Partnerlerimiz",
-        "description": "IAM alanında en teknolojik ve inovatif şirketlerle birlikte çalışmaktan gurur duyuyoruz.",
+        "description": "IAM alanında en teknolojik ve inovatif şirketlerle birlikte çalışmaktayız.",
         "learn-more": "Daha Fazla Bilgi",
         "Omada": {
             "description": "Omada, Kimlik ve Erişim Yönetimi ve Güvenlik Çözümleri sunan ve lider bir şirkettir.",
             "content1": "Omada, kuruluşlara dayanıklı uyumluluk sağlamak, risk tehlikesi azaltmak ve otomasyon geliştirmek için kullanıcılara uygun erişim sağlamakla ilgilidir. Omada'nın çözümleri, uygulamalara ve verilere kullanıcı erişimini kontrol etmek ve IT maliyetlerini azaltmak için kaynak tasarrufu sağlar.",
-            "content2": "2000 yılında kurulduğu ve dünya çapında işletmeler için güvenilir bir aday olduğu için, Omada genel ve karmaşık BT altyapılarında kullanılan gelişmiş Kimlik Yönetimi çözümlerini sunmaktadır. Dünya çapında işletmelerle işbirliği yaparak doğrudan veya yetkin ticari ortaklar ve sistem tümleştiricileri aracılığıyla çözümleri sunarlar."
+            "content2": "2000 yılından beri, Omada genel ve karmaşık BT altyapılarında kullanılan gelişmiş Kimlik Yönetimi çözümlerini sunmaktadır. Dünya çapında işletmelerle işbirliği yaparak doğrudan veya yetkin ticari ortaklar ve sistem tümleştiricileri aracılığıyla çözümleri sunarlar."
         },
         "EmpowerID": {
             "description": "EmpowerID, sektörün lideri, tüm üçüncü parti kimlik ve bulut güvenliği süitidir.",
             "content1": "İş dünyasında daha fazla deneyim ve özelleştirilmiş bir altyapı sunarak iki yüz dönümünün üstünde olan bir şirkettir. Platform, dünyanın en çok sektörlerde karmaşık gereksinimlere karşı dayanıklı bir şekilde büyük ölçekli kimlik yönetimi hizmetleri sağlar. Kuruluşlar, genellikle kullanıcı sağlama, tek oturum açma (SSO), erişim kontrolü ve güçlü denetimlerden oluşan temel hizmetleri sunarak dünyanın en büyük kimliklerini yönetebilir.",
             "content2": "EmpowerID, sıfır güven modelini temel alır ve bulut ve şirket içi uygulamalara güvenli erişim sağlamakla odaklanır. Bu model, cyber güvenlik alanındaki sürekli değişiklikleri etkili bir şekilde yönetmek için güçlü çözümler sunar. Şimdiye kadar Siemens, Airbus ve Deloitte gibi ilginç müşterileri olan EmpowerID, sektörün lideri kimlik yönetimi partneri olarak, kuruluşların güvenliği ve güvenliğini artırmak için kimlik yönetimi hizmetlerini buluta kadar destekler."
+        },
+        "memberships": {
+            "title": "Üyeliklerimiz",
+            "description": "Praktiga Consulting, aşağıdaki derneklerin gururlu bir üyesidir:"
+        },
+        "SNM": {
+            "title": "Güvenlik Ağı Münih",
+            "description": "Güvenlik Ağı Münih, Münih bölgesindeki şirketler ve araştirma kurumlarının bir derneğidir.",
+            "content": "Güvenlik Ağı Münih, Münih bölgesindeki şirketler ve araştirma kurumlarının bir derneğidir. Bavyera Ekonomi Bakanlığı'nın finanse ettiği bir proje olarak yedi yıl önce başlatılan, Ocak 2019'da kurulan kar amacı gütmeyen bir dernek olan “Sicherheitsnetzwerk München e.V.”dir. Derneğin amacı, BT güvenliği konusundaki farkındalığı ve uzmanlığını artırmak, şirketlerin ve kamuoyunun siber risklerine karşı korunmasını sağlamak ve BT güvenliği alanındaki yenilikçiliği ve mükemmelliği teşvik etmek için somut bir katkı sağlamaktır. Güvenlik Ağı Münih için tüm ilgili paydaşların ağ oluşturulması merkezi bir öneme sahiptir. Üyeler, bu nedenle, hem BT güvenliği çözümlerinin sağlayıcıları hem de kullanıcıları, büyük kuruluşlar olduğu gibi orta ölçekli işletmeler de derneğin bir parçasıdır. Araştırma kurumları da derneğin bir parçasıdır."
+        }
+    },
+    "security": {
+        "title": "Bilgi Güvenliği Politikası",
+        "overview": {
+            "title": "Genel Bakış",
+            "content": "Praktiga Consulting olarak, günümüz dijital dünyasında bilgi güvenliğinin kritik önemini çok iyi anlıyoruz. Hassas verileri koruma ve en yüksek güvenlik standartlarını sürdürme konusundaki kararlılığımız, kapsamlı Bilgi Güvenliği Politikamıza yansımaktadır."
+        },
+        "commitment": {
+            "title": "Taahhüdümüz",
+            "content": "İşlediğimiz tüm bilgilerin gizliliğini, bütünlüğünü ve kullanılabilirliğini sağlamayı taahhüt ediyoruz. Bu taahhüt, müşterilerimizin verilerini, çalışanlarımızın bilgilerini ve sistemlerimizden geçen tüm iş ile ilgili verileri kapsar."
+        },
+        "certification": {
+            "title": "ISO 27001 Sertifikasyonu",
+            "content": "ISO/IEC 27001:2013 sertifikamız, bilgi güvenliği yönetiminde en yüksek standartları sürdürme konusundaki kararlılığımızı göstermektedir. Bu uluslararası tanınmış sertifika, hassas şirket ve müşteri bilgilerinin yönetimi konusundaki sistematik yaklaşımımızı doğrulamaktadır."
+        },
+        "measures": {
+            "title": "Güvenlik Önlemleri",
+            "item1": "Potansiyel güvenlik açıklarını belirlemek ve gidermek için düzenli güvenlik değerlendirmeleri ve denetimler",
+            "item2": "Güvenlik farkındalığı ve en iyi uygulamalar konusunda kapsamlı çalışan eğitimi",
+            "item3": "En son teknoloji şifreleme ve güvenlik teknolojilerinin uygulanması",
+            "item4": "Sıkı erişim kontrolü önlemleri ve kimlik doğrulama protokolleri",
+            "item5": "Sürekli izleme ve olay müdahale prosedürleri"
+        },
+        "contact": {
+            "title": "İletişim Bilgileri",
+            "content": "Bilgi güvenliği politikamız hakkında sorularınız veya endişeleriniz için lütfen iletişim sayfamız üzerinden güvenlik ekibimizle iletişime geçin."
         }
     }
 }

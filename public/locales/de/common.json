@@ -7,12 +7,14 @@
     "toggle_dark_mode": "Dunkler Modus umschalten",
     "headers": {
         "home": "Startseite",
-        "services": "Dienste",
-        "careers": "Karrieremöglichkeiten",
+        "services": "Dienstleistungen",
+        "careers": "Karriere",
         "contact": "Kontakt",
         "imprint": "Impressum",
         "partners": "Partner",
-        "privacy": "Datenschutz"
+        "about": "Über uns",
+        "privacy": "Datenschutz",
+        "security": "Sicherheitsrichtlinie"
     },
     "welcome": "Willkommen in Praktiga",
     "hero": {
@@ -35,6 +37,10 @@
         "description5": "Wir verbinden Ihre IAM-Lösung mit verschiedenen Anwendungen und ermöglichen so einen koordinierten und einheitlichen Identitätsmanagement-Ansatz.",
         "service6": "Betrieb & Support",
         "description6": "Stärken Sie Ihr Team mit unseren Support-Services oder überlassen Sie uns ganz Ihren IAM-Betrieb, um einen kontinuierlichen Schutz und Effizienz zu gewährleisten."
+    },
+    "about": {
+        "title": "Über uns",
+        "certified": "Wir sind zertifiziert"
     },
     "career": {
         "hero": {
@@ -184,6 +190,42 @@
             "description": "EmpowerID ist das erfolgreichste Identity Management und Cloud Security Suite",
             "content1": "Mit über zwei Jahrzehnten Erfahrung im Bereich des Identitätsmanagements und Cloud Security bietet EmpowerID eine skalierbare und anpassbare Infrastruktur, die die spezifischen Anforderungen von Organisationen aus verschiedenen Branchen erfüllt. Das Angebot ermöglicht Unternehmen, Millionen von Identitäten weltweit zu verwalten und bietet wichtige Dienstleistungen wie Benutzerbereitstellung, einmaliges Anmelden (SSO), Zugriffssteuerung und robuste Überwachungsfunktionen. ",
             "content2": "Das Unternehmen setzt ein auf das Zero-Trust-Modell, das sich auf die sichere Zugriff auf sowohl Cloud- als auch lokale Anwendungen konzentriert. Die Lösungen von EmpowerID sind auf die sich verändernden Herausforderungen der Cybersecurity ausgerichtet, ermöglichen Organisationen, privilegierte Konten zu verwalten und effiziente Sicherheitsprozesse zu optimieren. Mit beachtlichen Kunden wie Siemens, Airbus und Deloitte hat EmpowerID sich als vertrauenswürdiger Partner im Bereich Identity Management etabliert, indem es Unternehmen dabei hilft, Kosten zu reduzieren und ihre Sicherheitsstandards zu verbessern, in dem komplexen digitalen Umfeld, in dem wir leben."
+        },
+        "memberships": {
+            "title": "Mitgliedschaften",
+            "description": "Praktiga Consulting ist stolzes Mitglied der folgenden Verbände:"
+        },
+        "SNM": {
+            "title": "Sicherheitsnetzwerk München",
+            "description": "Das Sicherheitsnetzwerk München ist ein Zusammenschluss von Unternehmen und Forschungsinstitutionen im Großraum München.",
+            "content": "Das Sicherheitsnetzwerk München ist ein Zusammenschluss von Unternehmen und Forschungsinstitutionen im Großraum München. Gegründet vor sieben Jahren als gefördertes Projekt des Bayerischen Wirtschaftsministeriums, wurde der gemeinnützige Verein `Sicherheitsnetzwerk München e.V.` im Januar 2019 ins Leben gerufen. Das Ziel des Vereins ist es, das Bewusstsein und die Expertise im Bereich der IT-Sicherheit zu erhöhen, die Unternehmen und die Öffentlichkeit vor Cyber-Risiken zu schützen und einen konkreten Beitrag zur Förderung der Innovation und Exzellenz im Bereich der IT-Sicherheit zu leisten. Die Vernetzung aller relevanten Akteure ist von zentraler Bedeutung für das Sicherheitsnetzwerk München. Mitglieder sind daher sowohl Anbieter als auch Nutzer von IT-Sicherheitslösungen, Großunternehmen haben sich ebenso wie mittelständische Unternehmen angeschlossen. Forschungsinstitutionen sind auch Teil des Vereins."
+        }
+    },
+    "security": {
+        "title": "Informationssicherheitsrichtlinie",
+        "overview": {
+            "title": "Überblick",
+            "content": "Bei Praktiga Consulting verstehen wir, dass Informationssicherheit in der heutigen digitalen Landschaft von entscheidender Bedeutung ist. Unser Engagement für den Schutz sensibler Daten und die Aufrechterhaltung höchster Sicherheitsstandards spiegelt sich in unserer umfassenden Informationssicherheitsrichtlinie wider."
+        },
+        "commitment": {
+            "title": "Unser Engagement",
+            "content": "Wir verpflichten uns zur Gewährleistung der Vertraulichkeit, Integrität und Verfügbarkeit aller Informationen, die wir verarbeiten. Diese Verpflichtung erstreckt sich auf die Daten unserer Kunden, die Informationen unserer Mitarbeiter und alle geschäftsbezogenen Daten, die durch unsere Systeme fließen."
+        },
+        "certification": {
+            "title": "ISO 27001 Zertifizierung",
+            "content": "Unsere ISO/IEC 27001:2013-Zertifizierung demonstriert unser Engagement für die Aufrechterhaltung höchster Standards im Informationssicherheitsmanagement. Diese international anerkannte Zertifizierung validiert unseren systematischen Ansatz zum Management sensibler Unternehmens- und Kundendaten."
+        },
+        "measures": {
+            "title": "Sicherheitsmaßnahmen",
+            "item1": "Regelmäßige Sicherheitsbewertungen und Audits zur Identifizierung und Behebung potenzieller Schwachstellen",
+            "item2": "Umfassende Mitarbeiterschulung zu Sicherheitsbewusstsein und Best Practices",
+            "item3": "Implementierung modernster Verschlüsselungs- und Sicherheitstechnologien",
+            "item4": "Strenge Zugangskontrollmaßnahmen und Authentifizierungsprotokolle",
+            "item5": "Kontinuierliche Überwachung und Incident-Response-Verfahren"
+        },
+        "contact": {
+            "title": "Kontaktinformationen",
+            "content": "Bei Fragen oder Bedenken zu unserer Informationssicherheitsrichtlinie kontaktieren Sie bitte unser Sicherheitsteam über unsere Kontaktseite."
         }
     }
 }

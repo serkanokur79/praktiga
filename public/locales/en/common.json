@@ -13,7 +13,9 @@
         "contact": "Contact",
         "imprint": "Imprint",
         "partners": "Partners",
-        "privacy": "Privacy Policy"
+        "about": "About Us",
+        "privacy": "Privacy Policy",
+        "security": "Security Policy"
     },
     "hero": {
         "title": "Identity & Access Management Consulting",
@@ -35,6 +37,10 @@
         "description5": "We connect your IAM solution with various applications, enabling a coordinated and unified approach to identity management.",
         "service6": "Operation & Support",
         "description6": "Empower your team with our support services, or let us handle your IAM operations entirely, ensuring continuous protection and efficiency."
+    },
+    "about": {
+        "title": "About Us",
+        "certified": "We are certified"
     },
     "career": {
         "hero": {
@@ -185,6 +191,42 @@
             "description": "EmpowerID is the award-winning, All-In-One Identity Management and Cloud Security Suite",
             "content1": "With over two decades of experience in the industry, EmpowerID offers a highly scalable and customizable infrastructure designed to meet the complex needs of organizations across various sectors. The platform enables enterprises to manage millions of identities globally, providing essential services such as user provisioning, single sign-on (SSO), access governance, and robust audit controls.",
             "content2": "The company is committed to a Zero Trust security model, focusing on secure access to both cloud and on-premise applications. EmpowerID's solutions address the evolving challenges of cybersecurity, enabling organizations to manage privileged accounts and streamline security processes effectively. With notable clients like Siemens, Airbus, and Deloitte, EmpowerID has established itself as a trusted partner in identity management, helping businesses reduce costs and improve their security posture in today’s complex digital landscape."
+        },
+        "memberships": {
+            "title": "Our Memberships",
+            "description": "Praktiga Consulting is a proud member of the following associations:"
+        },
+        "SNM": {
+            "title": "Security Network Munich",
+            "description": "The Security Network Munich is an association of companies and research institutions in the greater Munich area.",
+            "content": "The Security Network Munich is an association of companies and research institutions in the greater Munich area. Launched seven years ago as a funded project of the Bavarian Ministry of Economic Affairs, the non-profit association “Sicherheitsnetzwerk München e.V.” was founded in January 2019. The aim of the association is to increase awareness and expertise on the topic of IT security, to promote the protection of companies and the public against cyber risks, and to make a concrete contribution to promoting innovation and excellence in the field of IT security. The networking of all relevant stakeholders is of central importance to the Security Network Munich. Members are therefore both providers and users of IT security solutions, large corporations have joined as well as medium-sized businesses. Research institutions are also part of the association."
+        }
+    },
+    "security": {
+        "title": "Information Security Policy",
+        "overview": {
+            "title": "Overview",
+            "content": "At Praktiga Consulting, we understand that information security is crucial in today's digital landscape. Our commitment to protecting sensitive data and maintaining the highest standards of security is reflected in our comprehensive Information Security Policy."
+        },
+        "commitment": {
+            "title": "Our Commitment",
+            "content": "We are committed to ensuring the confidentiality, integrity, and availability of all information we handle. This commitment extends to our clients' data, our employees' information, and all business-related data that passes through our systems."
+        },
+        "certification": {
+            "title": "ISO 27001 Certification",
+            "content": "Our ISO/IEC 27001:2013 certification demonstrates our dedication to maintaining the highest standards of information security management. This internationally recognized certification validates our systematic approach to managing sensitive company and customer information."
+        },
+        "measures": {
+            "title": "Security Measures",
+            "item1": "Regular security assessments and audits to identify and address potential vulnerabilities",
+            "item2": "Comprehensive employee training on security awareness and best practices",
+            "item3": "Implementation of state-of-the-art encryption and security technologies",
+            "item4": "Strict access control measures and authentication protocols",
+            "item5": "Continuous monitoring and incident response procedures"
+        },
+        "contact": {
+            "title": "Contact Information",
+            "content": "For any questions or concerns regarding our information security policy, please contact our security team through our contact page."
         }
     }
 }

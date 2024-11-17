@@ -10,12 +10,6 @@ import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 import { MenuIcon } from 'lucide-react';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
 
-// export const headerItems = [
-//     { name: 'Home', link: '/' },
-//     { name: 'Our Services', link: '/services' },
-//     { name: 'Contact', link: '/contact' },
-//     { name: 'Careers', link: '/careers' }]
-
 export default function Header() {
     const { i18n } = useTranslation();
     const { t } = useTranslation('common');
@@ -29,9 +23,10 @@ export default function Header() {
         { name: `${t('headers.services')}`, link: '/services' },
         { name: `${t('headers.contact')}`, link: '/contact' },
         { name: `${t('headers.partners')}`, link: '/partners' },
+        { name: `${t('headers.about')}`, link: '/about' },
         { name: `${t('headers.careers')}`, link: 'https://praktiga.talentics.app/' },
-        { name: `${t('headers.privacy')}`, link: '/privacy-policy' },
-        { name: `${t('headers.imprint')}`, link: '/legal' },
+        // { name: `${t('headers.privacy')}`, link: '/privacy-policy' },
+        // { name: `${t('headers.imprint')}`, link: '/legal' },
     ], [t]);
 
 

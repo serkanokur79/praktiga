@@ -17,7 +17,7 @@ const PartnerCard = ({ partner }: { partner: Partner }) => {
                 <div className="flex flex-col sm:flex-row mt-10">
                     <div className="lg:w-1/4 text-center sm:pr-8 sm:py-8">
                         <div className="w-auto h-18 md:h-10 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                            <Image loading='lazy' className="object-cover object-center h-full w-full" src={partner.image} width='1200' height={500} alt={partner.title} />
+                            <Image loading='lazy' className="object-cover object-center h-16 w-auto bg-transparent" src={partner.image} width={1200} height={500} alt={partner.title} />
                         </div>
                         <div className="flex flex-col items-center text-center justify-center">
                             {/* <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">{partner.title}</h2> */}
@@ -27,8 +27,8 @@ const PartnerCard = ({ partner }: { partner: Partner }) => {
                     </div>
                     <div className="lg:w-3/4 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                         <p className="leading-relaxed text-sm md:text-base mb-4">{partner.content1}</p>
-                        <p className="leading-relaxed text-sm md:text-base mb-4">{partner.content2}</p>
-                        <a className="text-indigo-500 inline-flex items-center">{t('partners.learn-more')}
+                        {partner.content2 && <p className="leading-relaxed text-sm md:text-base mb-4">{partner.content2}</p>}
+                        <a className="text-indigo-500 inline-flex items-center" href={partner.link}>{t('partners.learn-more')}
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
                             </svg>

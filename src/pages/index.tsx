@@ -26,8 +26,6 @@ export default function Home() {
   const { t: t2 } = useTranslation('footer');
   const router = useRouter();
 
-
-
   const { locale } = router;
   return (
     <main
