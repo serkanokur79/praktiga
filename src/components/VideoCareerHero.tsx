@@ -21,8 +21,9 @@ const CareerVideoHero = () => {
                     muted
                     loop
                     preload="auto"
-                    playsInline
                     autoPlay
+                    playsInline
+                    webkit-playsinline
                     // width={640}
                     // height={360}
                     controls={false}

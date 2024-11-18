@@ -13,6 +13,8 @@ const HeroSection = () => {
                 autoPlay
                 loop
                 muted
+                playsInline
+                webkit-playsinline
                 className="absolute z-0 w-auto min-w-full min-h-[100dvh-4rem] md:min-h-[20rem] max-w-none"
             >
                 <source src="/video/praktiga.mp4" type="video/mp4" />
